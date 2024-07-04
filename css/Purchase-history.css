@@ -1,0 +1,204 @@
+/* 기본 설정 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing:-0.03em;
+}
+body {
+	background-color : #fff;
+	font-family : "Pretendard-Regular";
+	font-size : 18px;
+	color : #333;
+}
+ul {
+	list-style : none;
+}
+a {
+	text-decoration : none;
+	color : #333;
+}
+.wrap {
+    width: 1200px;
+    margin: 0 auto;
+}
+#logo{
+    width:180px;
+    height:60px;
+}
+input{
+    cursor: pointer;
+}
+/*본문*/
+.contents>div:nth-child(2){
+    display: none;
+}
+.contents>div:nth-child(2).active{
+    display: block;
+}
+
+.historyView .active{
+    display: block;
+}
+.wrap>div>div{
+    margin-bottom:113px;
+}
+.contents>div>div>div{
+    border-top:2px solid #333;
+}
+.historyDate{
+    margin-top:257px;
+    text-align: center;
+    margin-bottom:150px;
+}
+/*날짜버튼*/
+.historyDate>p{
+    text-align:center;
+}
+#date{
+    width:491px;
+    height:58px;
+    border-radius: 3px;
+    border:1px solid #333;
+    overflow: hidden;
+    float:left;
+    margin-left:270px;
+}
+
+#date>input[type="date"]{
+    border:none;
+    width:179px;
+    font-size:20px;
+    line-height:53px;
+    font-family : 'Pretendard-Regular';
+    text-align: center;
+    letter-spacing: 0;
+}
+
+
+input[type="date"]{
+    position: relative;
+  }
+  
+  input[type="date"]::-webkit-clear-button,
+  input[type="date"]::-webkit-inner-spin-button { 
+      display: none;
+  } 
+  input[type="date"]::-webkit-calendar-picker-indicator { 
+      background: transparent;
+      z-index: 1;
+  } 
+  
+  input[type="date"]:after{
+    position: absolute;
+    top:17px;
+    right:10px;
+    content: '';
+    width: 20px;
+    height:22px;
+    background:url('../images/IconB/calendar.svg') center center /contain;
+    z-index: 0;
+  } 
+#date>span{
+    margin:0 20px;
+    font-family : 'Pretendard-Regular';
+}
+
+#dateSelector{
+    width:160px;
+    height:60px;
+    border: none;
+    border-radius: 3px;
+    background-color: #FF9E57;
+    color:#fff;
+    font-family : 'Pretendard-SemiBold';
+    font-size:20px;
+    margin-left:-250px;
+}
+.titleTxt{
+    font-size:20px;
+    font-family : 'Pretendard-Bold';
+    line-height:24px;
+    padding:12px 0;
+
+}
+.grayTxt{
+    font-size:15px;
+    color:#BBB;
+    margin-top:8px;
+    margin-bottom:8px;
+    line-height:18px;
+
+}
+.priceTxt{
+    font-size:18px;
+    font-family: 'Pretendard-Bold';
+    margin-top:15px;
+    line-height:21px;
+}
+.PurchaseHistoryHead{
+    margin-bottom:29px;
+    position:relative;
+    font-size:30px;
+    font-family : 'Pretendard-Bold';
+}
+.more{
+    font-size:20px;
+    font-family : 'Pretendard-SemiBold';
+    position:absolute;
+    right:0;
+    bottom:1px;
+    color:#FF9E57
+}
+.more::After{
+    content:"";
+    background: url(../images/right.svg) no-repeat center/cover;
+    width:9px;
+    height:16px;
+    margin-left:12px;
+    display: inline-block;
+    vertical-align:middle;
+    margin-top:-2px;
+}
+
+/*내역*/
+.history{
+    border-bottom:1px solid #bbb;
+    padding:35px 40px;
+}
+.productImg{
+    width:119px;
+    height:119px;
+    background-color: #BBB;
+    float:left;
+    margin-right:27px;
+}
+
+/*상품 이미지*/
+.contents>div>div:nth-child(1)>div>div:first-child>a>div:first-child{
+    background: url(../images/galbitang.jpg) no-repeat center/cover;
+}
+.contents>div>div:nth-child(1)>div>div:nth-child(2)>a>div:first-child{
+    background: url(../images/ggotgetang.jpg) no-repeat center/cover;
+}
+
+.contents>div>div:nth-child(2)>div>div:first-child>a>div:first-child{
+    background: url(../images/sewoojang.jpg) no-repeat center/cover;
+}
+.contents>div>div:nth-child(2)>div>div:nth-child(2)>a>div:first-child{
+    background: url(../images/buttermanuldakbokkumtang.jpg) no-repeat center/cover;
+}
+
+.contents>div>div:nth-child(3)>div>div:first-child>a>div:first-child{
+    background: url(../images/gobchang.jpg) no-repeat center/cover;
+}
+.contents>div>div:nth-child(3)>div>div:nth-child(2)>a>div:first-child{
+    background: url(../images/gajigalbi.jpg) no-repeat center/cover;
+}
+
+.contents>div>div:nth-child(4)>div>div:first-child>a>div:first-child{
+    background: url(../images/broccoli.jpg) no-repeat center/cover;
+}
+.contents>div>div:nth-child(4)>div>div:nth-child(2)>a>div:first-child{
+    background: url(../images/gyeranmali.jpg) no-repeat center/cover;
+}

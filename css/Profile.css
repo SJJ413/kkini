@@ -1,0 +1,187 @@
+h2 {
+    display: block;
+    width: 480px;
+    margin: 210px auto 72px;
+    font-weight: normal;
+    font-family: 'Pretendard-Bold';
+    font-size: 32px;   
+}
+#profileContents {
+    width: 480px;
+    margin: 0 auto 120px;
+}
+.profileImg {
+    width: 120px;
+    height: 120px;
+    border: 1px solid #bbb;
+    border-radius: 200px;
+    margin: 0 auto 30px;
+    background: url(../images/profileImg.png) no-repeat center/cover;
+}
+input:-webkit-autofill {
+    box-shadow: 0 0 0px 1000px #fff inset;
+}
+input[type=text], input[type=password], input[type=number], select {
+    float: left;
+    width: 480px;
+    height: 50px;
+    border: 1px solid #bbb;
+    border-radius: 3px;
+    outline: none;
+    padding-left: 12px;
+    margin-bottom: 18px;
+}
+input[type=number] {
+    float: left;
+    width: 130px;   
+}
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+input[type=number]:last-child {
+    float: right;
+}
+input[type=text]::placeholder, input[type=password]::placeholder, input[type=number]::placeholder {
+    font-family: 'Pretendard-Light';
+    font-size: 20px;
+    color: #bbb;
+}
+select {
+    width: 112px;
+    font-family: 'Pretendard-Light';
+    font-size: 20px;
+    margin-left: 20px;
+}
+select[name=year] {
+    width: 216px;
+    margin-left: 0;
+}
+#editBtn {
+    width: 480px;
+    height: 72px;
+    border: none;
+    border-radius: 3px;
+    background-color: #FF9E57;
+    color: #fff;
+    font-family: 'Pretendard-Bold';
+    font-size: 24px;
+    cursor: pointer;
+}
+input[type=button]#idCheck {
+    margin-left: 18px;
+}
+input[type=button]#sendCode {
+    float: left;
+    margin-right: 18px;
+}
+p.dash {
+    float: left;
+    width: 45px;
+    text-align: center;
+    position: relative;
+    top: 12px;
+}
+input[type=checkbox] {
+    appearance: none;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    margin-top: -3px;
+}
+input[type=checkbox]:checked {
+    appearance: none;
+    border: none;
+    background-color: #FF9E57;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+}
+input[type=checkbox]:checked:before, input[type=checkbox]:disabled:before {
+    content: "";
+    background: url("../images/IconW/check.png");
+    background-repeat: no-repeat;
+    background-size: 30px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: -1px;
+}
+input[type=checkbox]:disabled {
+    appearance: none;
+    border: none;
+    background-color: #bbb;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+}
+.smsCheck {
+    float: right;
+    margin-bottom: 30px;
+}
+.smsCheck > label {
+    margin-left: 6px;
+    font-size: 20px;
+}
+.smsCheck > label span {
+    color: #bbb;
+}
+input[type=text]:disabled, input[type=password]:disabled, input[type=number]:disabled {
+    border: 1px solid #bbb;
+    background-color: #eee;
+}
+select:disabled {
+    border: 1px solid #bbb;
+    background-color: #eee;
+    color: #bbb;
+}
+/* 팝업 */
+#popup {
+    width: 500px;
+    height: 334px;
+    display: block;
+    position: fixed;
+    top: 200px;
+    left: 50%;
+    z-index: 100;
+    margin-left: -250px;
+    background-color: #fff;
+    border: 1px solid #bbb;
+    border-radius: 3px;
+    padding: 76px 55px;
+    box-shadow: 0px 18px 24px rgba(0, 0, 0, 0.2);
+    display: none;
+}
+#popup p {
+    font-family: 'Pretendard-Medium';
+    font-size: 30px;
+    text-align: center;
+}
+#popup input[type=password] {
+    width: 390px;
+    margin: 18px auto;
+}
+.btns {
+    clear: both;
+}
+.btns input[type=button] {
+    width: 180px;
+    height: 60px;
+    border: none;
+    border-radius: 3px;
+    background-color: #FF9E57;
+    color: #fff;
+    font-family: 'Pretendard-Bold';
+    font-size: 24px;
+    cursor: pointer;
+    float: left;
+}
+.btns input[type=button]:first-child {
+    border: 2px solid #FF9E57;
+    background-color: #fff;
+    color: #FF9E57;
+    margin-right: 28px;
+}

@@ -1,0 +1,154 @@
+/*전체 영역*/
+body{
+	overflow-x: hidden;
+}
+/*상단배너 영역*/
+.banner {
+	margin-top : 90px;
+	cursor : pointer;
+}
+/*중간배너 영역*/
+.banner2{
+	margin-bottom : 150px;
+	cursor : pointer;
+}
+/*navi 스크롤 영역*/
+html{
+	Scroll-behavior : smooth;
+}
+#soup,#vege,#fry,#grill,#kimchi,#set{
+	height : 90px;
+	position : 	relative;
+	z-index : 1;
+}
+/*반찬메뉴 영역*/
+#navi{
+	width : 1920px;
+	height : 60px;
+	background-color : #fff;
+	border-top : 2px solid #FF521C;
+	border-bottom : 2px solid #FF521C;
+	position : relative;
+	top : -4px;
+}
+.menu{
+	width : 1030px;
+	margin : 0 auto;
+}
+.menu li{
+	display : inline-block;
+	padding : 0 40px;
+	line-height : 55px;
+	font-family : "Pretendard-Bold";
+}
+.menu li a {
+	color : #FF521C;	
+}
+/*필터&목록 영역*/
+#etc{
+	width : 1200px;
+	height : 40px;
+	margin : 70px 0 40px 0;
+}
+.filter{
+	width : 90px;
+	height : 40px;
+	border-radius : 5px;
+	border : 1px solid #666;
+	background-color : #fff;
+	font-family : "Pretendard-Medium";
+	font-size : 20px;
+	color : #666;
+	float : left;
+	cursor :pointer;
+}
+.filter p {
+	margin : 7px 14px;
+}
+.filter img {
+	margin-right : 5px;
+	position : relative;
+	top : 2px;
+}
+.listView{
+	width : 95px;
+	float : right;
+	cursor : pointer;
+}
+.listView img:first-child{
+	margin-right : 10px;
+}
+/*상품 리스트 영역*/
+.shoplist{
+	width : 1200px;
+	margin-bottom : 125px;
+}
+#title h4 {
+	font-family : "Pretendard-Bold";
+	color : #FF521C;
+	font-size : 20px;
+	margin-bottom : 7px;
+}
+#title > div {
+	width : 1200px;
+	height: 30px;
+	margin-bottom : 20px;
+}
+#title h3 {
+	font-family : "Pretendard-Bold";
+	font-size : 26px;
+	float : left;
+}
+#title span {
+	font-family : "Pretendard-Bold";
+	font-size : 18px;
+	float : right;
+	cursor : pointer;
+}
+/*상품 영역*/
+#shoplist ul{
+	clear : both;
+}
+#box {
+	clear : both;
+	width : 400px;
+	height : 500px;
+	display : inline-block;
+	margin-right : -6px;
+	vertical-align : top;
+	position : relative;
+}
+#box img {
+	margin : 30px 0;
+	width : 398px;
+}
+#subText {
+	width : 360px;
+	height : 180px;
+	margin : 0 auto;
+}
+#subText h3 {
+	font-family : "Pretendard-Bold";
+	font-size : 26px;
+	margin-bottom : 10px;
+}
+.details {
+	font-family : "Pretendard-Medium";
+	font-size : 24px;
+	margin-bottom : 25px;
+	line-height : 35px;
+	letter-spacing : -2%;
+}
+.price {
+	font-family : "Pretendard-Bold";
+	font-size : 26px;
+	position : absolute;
+	bottom : 25px;
+}
+/*탑버튼*/
+.topBtn {
+	position : fixed;
+	right : 80px;
+	bottom : 70px;
+	cursor : pointer;
+}

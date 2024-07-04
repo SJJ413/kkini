@@ -1,0 +1,174 @@
+/*전체 영역*/
+body{
+	overflow-x: hidden;
+}
+/*배너 영역*/
+.banner1{
+	margin-top : 80px;
+}
+.banner2{
+	margin-top : -5px;
+}
+/*브랜드 스토리 영역*/
+#brand{
+	width : 1920px;
+	height : 4150px;
+	margin-top : -4px;
+}
+.brandTop{
+	width : 1200px;
+	height : 475px;
+	margin : 180px auto 260px;
+}
+.brandTop h4{
+	color : #FF521C;
+	font-family : "Pretendard-Bold";
+	font-size : 26px;
+	margin-bottom : 48px;
+}
+.titleT{
+	font-size : 50px;
+	font-family : "Pretendard-Medium";
+	line-height : 66px;
+	letter-spacing : 1px;
+}
+.titleT span{
+	font-family : "Pretendard-Bold";
+}
+.colorB{
+	width : 260px;
+	height : 20px;
+	background-color : #FFDCD1;
+	position : relative;
+	left: 245px;
+    top: -22px;
+	z-index : -10;
+}
+.subT{
+	margin-top : 60px;
+	font-size : 20px;
+	font-family : "Pretendard-Medium";
+	line-height : 34px;
+}
+/*포인트 영역 좌우*/
+.right{
+	float : right;
+}
+.left{
+	float : left;
+}
+/*포인트 영역*/
+.point{
+	width : 1920px;
+	height : 610px;
+	margin-bottom : 250px;
+}
+.point aside{
+	width : 1560px;
+	height : 610px;
+}
+.point aside h4{
+	width : 160px;
+	color : #FF521C;
+	font-family : "Pretendard-Bold";
+	font-size : 26px;
+	margin-bottom : 45px;
+}
+.point aside h4 a{
+	width : 28px;
+	height : 28px;
+	display : inline-block;
+	color : #fff;
+	background-color : #FF521C;
+	font-family : "Pretendard-Bold";
+	font-size : 18px;
+	text-align : center;
+	line-height : 30px;
+	margin-left : 15px;
+}
+.pointL{
+	float : left;
+}
+.titleT2{
+	font-size : 44px;
+	font-family : "Pretendard-Medium";
+	line-height : 62px;
+	letter-spacing : 1px;
+}
+.titleT2 span{
+	font-family : "Pretendard-Bold";
+}
+.subT2{
+	width : 600px;
+	height : 230px;
+	margin-top : 60px;
+	font-size : 20px;
+	font-family : "Pretendard-Medium";
+	line-height : 34px;
+	text-align : justify;
+}
+.subT2 span{
+	font-family : "Pretendard-Bold";
+}
+.pointR{
+	float : right;
+}
+.warning{
+	Width : 492px;
+	height : 40px;
+	font-size : 14px;
+	font-family : "Pretendard-Light";
+	/*margin-top :40px;*/
+	line-height : 20px;
+	color : #bbb;
+}
+.wL{
+	float : left;
+}
+.wR{
+	float : right;
+}
+/*포인트 영역 형광펜*/
+.colorB2{
+	width : 430px;
+	height : 20px;
+	background-color : #FFDCD1;
+	position : relative;
+	left: -1px;
+    top: -25px;
+	z-index : -10;
+}
+.colorB3{
+	width : 400px;
+	height : 20px;
+	background-color : #FFDCD1;
+	position : relative;
+	left: -1px;
+    top: -25px;
+	z-index : -10;
+}
+.colorB4{
+	width : 480px;
+	height : 20px;
+	background-color : #FFDCD1;
+	position : relative;
+	left: -4px;
+    top: -25px;
+	z-index : -10;
+}
+.colorB5{
+	width : 365px;
+	height : 20px;
+	background-color : #FFDCD1;
+	position : relative;
+	left: -4px;
+    top: -25px;
+	z-index : -10;
+}
+/*탑버튼*/
+.topBtn {
+	position : fixed;
+	right : 80px;
+	bottom : 70px;
+	cursor : pointer;
+}

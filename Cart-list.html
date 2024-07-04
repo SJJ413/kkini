@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>끼니지키미</title>
+    <link rel="stylesheet" href="css/common.css" />
+	<link rel="stylesheet" href="css/cart-list.css" />
+</head>
+<body>
+    <header>
+        <div class="wrap">
+            <img src="images/logo.svg" alt="로고" id="logo"/>
+            <ul id="menu">
+                <li><a href="javascript:;">지키미 이야기</a></li>
+                <li><a href="javascript:;">반찬 둘러보기</a></li>
+                <li><a href="javascript:;">공지사항</a></li>
+                <li><a href="javascript:;">고객문의</a></li>
+            </ul>
+            <ul id="menu_small">
+                <li><a href="javascript:;"><img src="images/iconB/cart.png" alt="장바구니" />장바구니</a></li>
+                <li><a href="javascript:;">주문/배송</a></li>
+                <li><a href="javascript:;">내 정보</a></li>
+                <li><a href="javascript:;">로그아웃</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="wrap">
+        <div class="cartMain">
+        <h2 class="cartTitle">장바구니</h2>
+        <div class="cartButton">
+            <input type="button" value="선택삭제" onclick="selectDel()">
+            <input type="button" value="전체삭제" onclick="location.href='Cart-empty.html'">
+        </div>
+        <!--장바구니 내부-->
+        <div class="cart">
+            <ul class="cartTab">
+                <li class="checkbox"><input type="checkbox" id="cartCheckMain" name="mainCheck" onclick="allCheck()">
+                    <label class="checkboxLabel" for="cartCheckMain"></label>
+                    </li>
+                <li class="info">상품정보</li>
+                <li class="count">수량</li>
+                <li class="price">주문금액</li>
+                <li class="point">적립금</li>
+            </ul>
+            <div class="cartContents"> 
+            <ul class="cartCon check">
+                <li class="checkbox"><input type="checkbox" id="cartCheck1" name="cartCheck1">
+                <label class="checkboxLabel" for="cartCheck1"></label>
+                </li>
+                <li class="info">
+                    <div class="productInfo">
+                        <ul>
+                        <a href="#">
+                            <li><div class=productImg></div></li>
+                            <li><div>
+                                <p class="titleTxt">신사골 할머니 갈비탕(800g)</p>
+                                <p class="grayTxt">국물이 진하고 담백해요</p>
+                                <p class="priceTxt">12,900원</p>
+                                </div>
+                            </li>
+                        </a>
+                    </div>
+                </li>
+                <li class="count">
+                    <form name="cntButton" class="cntButton">
+                        <input type="button" class="down">
+                        <div class="now">1</div>
+                        <input type="button" class="up">
+                    </form>
+                </li>
+                <li class="price">
+                    <p class="productPrice">12,900원</p>
+                </li>
+                <li class="point">
+                    <p class="productPoint">120</p>
+                </li>
+            </ul>
+
+            <ul class="cartCon check">
+                <li class="checkbox"><input type="checkbox" id="cartCheck2" name="cartCheck2">
+                <label class="checkboxLabel" for="cartCheck2"></label>
+                </li>
+                <li class="info">
+                    <div class="productInfo">
+                        <ul>
+                        <a href="#">
+                            <li><div class=productImg></div></li>
+                            <li><div>
+                                <p class="titleTxt">얼큰한 꽃게탕(800g)</p>
+                                <p class="grayTxt">꽃게 푸짐! 국물 얼큰!</p>
+                                <p class="priceTxt">12,900원</p>
+                                </div>
+                            </li>
+                        </a>
+                    </div>
+                </li>
+                <li class="count">
+                        <form name="cntButton" class="cntButton">
+                            <input type="button" class="down">
+                            <div class="now">1</div>
+                            <input type="button" class="up">
+                        </form>
+                </li>
+                <li class="price">
+                    <p class="productPrice">12,900원</p>
+                </li>
+                <li class="point">
+                    <p class="productPoint">250</p>
+                </li>
+            </ul> 
+        </div>
+        </div>
+        <!--정산-->
+        <div class="pay">
+            <div class="productPay">
+                <p class="payTxt">0원</p>
+                <p class="grayTxt">상품금액</p>
+            </div>
+            <div class="payTxt"><p>+</p></div>
+            <div class="delivery">
+                <p class="payTxt">0원</p>
+                <p class="grayTxt">배송비</p>
+            </div>
+            <div><p class="payTxt">=</p></div>
+            <div class="totla">
+                <p class="totalPayTxt">0원</p>
+                <p class="grayTxt">총 주문금액</p>
+            </div>
+
+        </div>
+        <div class="payButton">
+        <input type="button" onclick="location.href='purchase.html'" value="주문하기">
+        <p class="shopping"><a href="Shop.html">계속 쇼핑하기</a></p>
+        </div>
+    </div>
+    </div>
+
+    <footer>
+        <div class="wrap">
+            <div id="footer1">
+                <p>커뮤니티</p>
+                <ul id="footer1_list">
+                    <li><a href="javascript:;">공지사항</a></li>
+                    <li><a href="javascript:;">이벤트</a></li>
+                    <li><a href="javascript:;">자주묻는 질문</a></li>
+                    <li><a href="javascript:;">1:1 문의</a></li>
+                </ul>
+                <ul id="footer1_list_small">
+                    <li><a href="javascript:;">끼니지키미 소개</a></li>
+                    <li><a href="javascript:;">이용약관</a></li>
+                    <li><a href="javascript:;">개인정보처리방침</a></li>
+                </ul>
+            </div>
+            <div id="footer2">
+                <p>협력제안</p>
+                <div>
+                    <p>끼니지키미와 함께하고 싶으신 분!<br><span>환영합니다.</span></p>
+                    <p>생산자 / 공급업체 / 봉사단체 / 구직자</p>
+                    <p><img src="images/iconB/email-darkgray.png" alt="이메일" />exemail.kkinigikimi.co.kr</p>
+                </div>
+            </div>
+            <div id="footer3">
+                <p>고객센터</p>
+                <div>
+                    <p><img src="images/iconB/agent.png" alt="상담원" />0000-0000</p>
+                    <p>월~금요일 08:30~17:30 / 토요일 08:30~12:00</p>
+                    <p>점심시간 12:00~13:00</p>
+                    <p>일요일, 공휴일은 휴무입니다.</p>
+                </div>
+            </div>
+            <div id="footer4">
+                <p>SNS</p>
+                <div>
+                    <a href="javascript:;"><img src="images/iconB/kakao-darkgray.png" alt="카카오톡" /></a>
+                    <a href="javascript:;"><img src="images/iconB/instagram-darkgray.png" alt="인스타그램" /></a>
+                    <a href="javascript:;"><img src="images/iconB/facebook-darkgray.png" alt="페이스북" /></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div id="modal">
+        <div class="CartPopup">
+            <p class="CartPopupTxt">삭제 하시겠습니까?</p>
+            <input type="button" class="no" value="아니요" onclick="activeNo()">
+            <input type="button" class="yes" value="예" onclick="activeYes()">
+        </div>
+</body>
+<script src="js/jquery-1.12.3.js"></script>
+<script src="js/common.js"></script>
+<script src="js/cart-list.js"></script>
+</html>

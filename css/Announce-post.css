@@ -1,0 +1,45 @@
+#post {
+	width : 1200px;
+	height : 1650px;
+	margin : 150px auto 0;
+}   
+.ptitle {
+	width : 1200px;
+	height : 50px;
+	margin-top : 30px;
+	border-top : 1px solid #666;
+	border-bottom : 1px solid #666;
+	background : #eee;
+}
+.ptitle table{
+	width : 1000px;
+	height : 50px;
+	margin : 0 auto;
+	font-size : 16px;
+	font-family : 'Pretendard-Bold';
+	color : #666;
+}
+.ptext {
+	width : 1150px;
+	margin-top : 30px;
+	margin-left : 40px;
+	font-size : 14px;
+	line-height : 30px;
+}
+.pfooter {
+	width : 1200px;
+	height : 50px;
+	border-top : 1px solid #666;
+	margin-top : 70px;
+}
+input[type=button] {
+	width : 80px;
+	height : 30px;
+	background : #333;
+	border : 1px solid #333;
+	border-radius : 5px;
+	color : #fff;
+	float : right;
+	margin-top : 24px;
+	cursor : pointer;
+}

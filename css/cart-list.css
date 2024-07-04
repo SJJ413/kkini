@@ -1,0 +1,344 @@
+/* 기본 설정 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+	background-color : #fff;
+	font-family : "Pretendard-Regular";
+	font-size : 18px;
+	color : #333;
+}
+ul {
+	list-style : none;
+}
+a {
+	text-decoration : none;
+	color : #333;
+}
+.wrap {
+    width: 1200px;
+    margin: 0 auto;
+}
+#logo{
+    width:180px;
+    height:60px;
+}
+input{
+    cursor: pointer;
+}
+/*본문*/
+.cart{
+    border-top:1px solid #333;
+    border-bottom:1px solid #333;
+    margin-bottom:41px;
+    
+}
+.cartTitle{
+    font-size:30px;
+    margin-top:178px;
+}
+.cartButton{
+    margin-top:42px;
+    margin-bottom:12px;
+    text-align: right;
+}
+.cartButton input[type=button]{
+    border:1px solid #333;
+    border-radius:5px;
+    padding:6px 14px;
+    font-family: 'Pretendard-Medium';
+    font-size:15px;
+    background-color: #fff;
+    margin-left:8px;
+
+}
+/*장바구니 상단 탭*/
+.cartTab{
+    border-bottom:1px solid #BBBBBB;
+    height:64px;
+}
+.cartTab>li{
+    float:left;
+    font-size:20px;
+    line-height:64px;
+}
+/*장바구니 체크박스*/
+.checkbox{
+    width:110px;
+    display:inline-block;
+    height:64px;
+    line-height:70px;
+}
+
+input[type="checkbox"]{
+    display: none;
+}
+input[type="checkbox"] + label{
+    display: inline-block;
+}
+input[type="checkbox"] + label:before{
+    display:block;
+    content:"";
+    width:25px;
+    height:25px;
+    text-align:center;
+    border:1px solid #333;
+    border-radius:5px;
+    box-sizing: border-box;
+    margin-left:35px;
+    margin-top:20px;
+    cursor: pointer;
+}
+input[type="checkbox"]:checked + label:before{
+    border-radius:5px;
+    background-image: url("../images/check.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    border:none;
+}
+
+
+.info{
+    width:604px;
+    height:64px;
+    text-align:center;
+
+}
+.count{
+    width:162px;
+    height:64px;
+    text-align:center;
+
+}
+.price{
+    width:162px;
+    height:64px;
+    text-align:center;
+
+}
+.point{
+    width:162px;
+    height:64px;
+    text-align:center;
+}
+.cartContents>ul{
+    display: none;
+}
+.cartContents>ul.check{
+    display: block;
+}
+.cartCon{
+    width:100%;
+    height:160px;
+    border-bottom:1px solid #BBBBBB;
+}
+.cartCon>.checkbox{
+    height:160px;
+}
+.cartCon>.info{
+    height:160px;
+}
+.productInfo>ul>a>li{
+    float:left;
+    height:160px;
+    margin-top:18px;
+}
+.productImg{
+    width:122px;
+    height:122px;
+    background-color: #BBB;
+}
+.productInfo>ul:first-child>a>li:first-child div{
+    background-image: url("../images/galbitang.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.productInfo>ul>a>li>div{
+    padding:28px 0;
+}
+.productInfo>ul>a>li p{
+    text-align: left;
+    margin-left:60px;
+}
+.cartCon>li{
+    float:left;
+}
+.titleTxt{
+    font-size:20px;
+    font-weight:bold;
+}
+.grayTxt{
+    font-size:15px;
+    color:#BBB;
+    margin-top:6px;
+    margin-bottom:8px;
+}
+.priceTxt{
+    font-size:18px;
+    color: #ff9e57;
+    font-family: 'Pretendard-Medium';
+
+}
+.cartCon>.count{
+    height:160px;
+}
+.cntButton{
+    width:122px;
+    height:40px;
+    margin:55px auto;
+
+}
+.down, .now, .up{
+    width:40px;
+    height:40px;
+    float:left;
+
+}
+.down{
+    border:1px solid #bbb;
+    background-image: url("../images/minplus.svg");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: none;
+}
+.now{
+    border-top:1px solid #BBB;
+    border-bottom:1px solid #BBB;
+    line-height:40px;
+    font-weight:500;
+}
+.up{
+    border:1px solid #bbb;
+    background-image: url("../images/minplus.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+    overflow: hidden;
+    white-space: wrap;
+    box-sizing: border-box;
+}*/
+.cartCon>.price{
+    height:160px;
+}
+.productPrice{
+    margin:65px auto;
+}
+.cartCon>.point{
+    height:160px;
+}
+.productPoint{
+    margin:65px auto;
+}
+
+.cart>div>ul:nth-child(2)>li>.productInfo>ul:first-child>a>li:first-child div{
+    background-image: url("../images/ggotgetang.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.pay{
+    text-align: center;
+    margin-bottom:40px;
+}
+.pay>div{
+    display: inline-block;
+    vertical-align: top;
+    margin:0 30px;
+}
+.payTxt{
+    font-size:30px;
+    font-family: 'Pretendard-Medium';
+}
+.totalPayTxt{
+    font-size:30px;
+    font-family: 'Pretendard-Bold';
+    color:#FF521C;
+}
+
+.payButton{
+    text-align: center;
+}
+.payButton>input[type=button]{
+    width:500px;
+    height:80px;
+    text-align: center;
+    font-weight:bold;
+    font-size:20px;
+    border:none;
+    margin-bottom:30px;
+    background-color: #ff9e57;
+    color:#fff;
+    font-size:24px;
+}
+
+
+.shopping{
+    margin-bottom:150px;
+}
+.shopping a{
+    border-bottom:1px solid #ff9e57;
+    text-align: center;
+    color:#ff9e57;
+    font-size:24px;
+    font-family: 'Pretendard-SemiBold';
+}
+
+#modal{
+	background-color:rgba(0,0,0,0);
+    position: absolute;
+    z-index: 1000;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    display: none;
+}
+#modal.active{
+    display: block;
+}
+.CartPopup{
+	background-color:#fff;
+	width:500px;
+	height:300px;
+	position:fixed;
+	top:50%;
+	left:50%;
+    margin-top:-200px;
+	margin-left:-250px;
+    box-shadow: 0px 18px 24px rgba(0, 0, 0, 0.20);
+    border-radius: 3px;
+    border: 1px solid  #BBB;
+}
+.CartPopupTxt{
+    margin-top:76px;
+    font-size: 30px;
+    font-family : 'Pretendard-Medium';
+    text-align: center;
+}
+.CartPopup>input[type="button"]{
+    width:180px;
+    height:60px;
+    text-align: center;
+    margin-top:76px;
+    font-size: 24px;
+    font-family : 'Pretendard-Bold';
+}
+
+.no{
+    border:2px solid #ff9e57;
+    margin-left:55px;
+    margin-right:15px;
+    color:#ff9e57;
+    background-color: #fff;
+}
+.yes{
+    border:none;
+    background-color: #ff9e57;
+    color:#fff;
+}

@@ -1,0 +1,97 @@
+/*전체영역*/
+#delivery{
+	width : 825px;
+	height : 980px;
+	margin : 0 auto;
+	margin-top : 90px;
+}
+#delivery aside{
+	width : 825px;
+	height : 545px;
+	padding-top : 180px;
+}
+/*배송날짜 안내 영역*/
+.deTitle{
+	margin-bottom : 150px;
+}
+.deTitle h2{
+	text-align : center;
+	margin-bottom : 10px;
+	font-family : "Pretendard-Medium";
+	font-size : 30px;
+}
+.deTitle p{
+	text-align : center;
+	font-size : 25px;
+}
+/*트럭 애니메이션 영역*/
+.deAnime{
+	width : 825px;
+	height : 160px;
+	margin-bottom : 150px;
+}
+#truck{
+	width : 100%;
+	height : 60px;
+	position : relative;
+}
+.move{
+	width : 80px;
+	position : absolute;
+	top : 0;
+	left : 50px
+}
+#Progress{
+	width : 100%;
+	height : 25px;
+	border : 2px solid #FF9E57;
+	margin-bottom : 25px;
+	border-radius : 30px;
+	overflow : hidden;
+}
+#Bar {
+	width: 100px;
+	height: 25px;
+	background-color: #FF9E57;
+	border-radius : 0 30px 30px 0;
+	transition: all 1s;
+}
+/*
+@keyframes truckAnime {
+	from{opacity: 0;}
+	to{opacity: 1;}
+}*/
+.deAnime ul {
+	width : 745px;
+	height : 42px;
+	margin : 0 auto;
+}
+.deAnime li {
+	display : inline-block;
+	margin-right : 111px;
+	font-family : "Pretendard-Medium";
+	font-size : 20px;
+}
+.deAnime li:last-child{
+	margin-right : 0;
+}
+/*배송정보 안내 영역*/
+.deSub{
+	width : 100%;
+	height : 125px;
+}
+.deSub h3{
+	font-family : "Pretendard-Bold";
+	font-size : 20px;
+	margin-bottom : 20px;
+}
+.deSub p{
+	color : #bbb;
+	font-family : "Pretendard-Medium";
+	margin-bottom : 10px;
+}
+.deSub span{
+	color : #333;
+	font-family : "Pretendard-Regular";
+	margin-left : 195px;
+}

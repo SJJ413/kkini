@@ -1,0 +1,525 @@
+/* 기본 설정 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing:-0.03em;
+}
+body {
+	background-color : #fff;
+	font-family : "Pretendard-Regular";
+	font-size : 18px;
+	color : #333;
+}
+ul {
+	list-style : none;
+}
+a {
+	text-decoration : none;
+	color : #333;
+}
+.wrap {
+    width: 1200px;
+    margin: 0 auto;
+}
+#logo{
+    width:180px;
+    height:60px;
+}
+/*표 서식*/
+.purchase>div{
+    margin-bottom:130px;
+}
+#customer, #delivery, #discount, #payment, #total, #agree {
+    padding:60px 40px;
+}
+label{
+    font-size:25px;
+    display: inline-block;
+    width:175px;
+}
+.purchaseHead{
+    font-family : 'Pretendard-Bold';
+    font-size:30px;
+    margin-bottom:43px
+}
+.purchase>div>div{
+    border-top:1px solid #333;
+}
+
+/*주문자 정보*/
+.purchaseInfo{
+    width:1200px;
+    margin-top: 238px;
+}
+.important{
+    color:#FF521C;
+}
+form>p{
+    margin-bottom:25px;
+}
+input[type="text"]{
+    padding:7px;
+    font-size:20px;
+    border:1px solid #BBB;
+    border-radius:3px;
+    height:50px;
+}
+select{
+    padding:7px;
+    font-size:20px;
+    border:1px solid #BBB;
+    border-radius:3px;
+    height:50px;
+}
+.purchaseTxt{
+    font-size:20px;
+    display: inline-block;
+    width:36px;
+    text-align:center;
+}
+#name{
+    width:600px;
+    height:50px;
+}
+#phoneNum1, #phoneNum2, #phoneNum3{
+    width:170px;
+    height:50px;
+}
+/*배송지 정보*/
+.checkbox{
+    text-align: right;
+    vertical-align:top;
+}
+input[type="checkbox"]{
+    display: none;
+}
+
+input[type="checkbox"] + .checkboxLabel{
+    display: inline-block;
+    width:230px;
+    font-size:26px;
+    
+}
+
+input[type="checkbox"] + .checkboxLabel:before{
+    display:inline-block;
+    content:"";
+    width:30px;
+    height:30px;
+    text-align:center;
+    border:1px solid #BBB;
+    border-radius:5px;
+    box-sizing: border-box;
+    margin-right:7px;
+    vertical-align: top;
+}
+input[type="checkbox"]:checked + .checkboxLabel:before{
+    border-radius:5px;
+    background-image: url("../images/check.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border:none;
+}
+
+#address{
+    width:120px;
+    height:50px;
+    background-color: #333;
+    text-align: center;
+    font-size: 20px;
+    font-family : 'Pretendard-Light';
+    color:#fff;
+    margin-left:10px;
+
+}
+#addressTxT{
+    width:600px;
+    height:50px;
+    margin-top:10px;
+    margin-left:4px;
+}
+#message{
+    width:600px;
+    height:50px;
+    color:#333;
+    font-size: 20px;
+    font-family : 'Pretendard-Light';
+}
+
+/*주문제품*/
+.cartInfo{
+    padding-bottom:60px;
+}
+.cartTitle{
+    font-size:30px;
+    margin-top:178px;
+}
+
+/*주문제품 상단 탭*/
+.cartTab{
+    border-bottom:1px solid #BBBBBB;
+    height:64px;
+}
+.cartTab>li{
+    float:left;
+    font-size:20px;
+    line-height:64px;
+}
+
+.info{
+    width:700px;
+    height:64px;
+    text-align:center;
+
+}
+.count{
+    width:162px;
+    height:64px;
+    text-align:center;
+
+}
+.price{
+    width:162px;
+    height:64px;
+    text-align:center;
+
+}
+.point{
+    width:162px;
+    height:64px;
+    text-align:center;
+}
+.cartCon{
+    width:100%;
+    height:160px;
+    border-bottom:1px solid #BBBBBB;
+}
+/*주문제품 내용*/
+.cartCon>.info{
+    height:160px;
+}
+.productInfo>ul>a>li{
+    float:left;
+    height:160px;
+    margin-top:18px;
+}
+.productImg{
+    width:122px;
+    height:122px;
+}
+.productInfo>ul:first-child>a>li:first-child div{
+    background-image: url("../images/galbitang.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#cart>div>ul:nth-child(2)>li>.productInfo>ul:first-child>a>li:first-child div{
+    background-image: url("../images/ggotgetang.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.productInfo>ul>a>li>div{
+    padding:20px 0;
+    margin-left:34px;
+}
+.productInfo>ul>a>li p{
+    text-align: left;
+    margin-left:60px;
+}
+.cartCon>li{
+    float:left;
+}
+.titleTxt{
+    font-size:20px;
+    font-weight:bold;
+}
+.grayTxt{
+    font-size:15px;
+    color:#BBB;
+    margin-top:8px;
+    margin-bottom:8px;
+}
+.priceTxt{
+    font-size:18px;
+    font-family: 'Pretendard-Bold';
+    margin-top:15px;
+
+}
+.cartCon>.count{
+    height:160px;
+    line-height: 160px;
+}
+.cartCon>.price{
+    height:160px;
+    line-height: 160px;
+}
+.cartCon>.point{
+    height:160px;
+    line-height: 160px;
+}
+/*할인 쿠폰*/
+.discountBlock{
+    width:715px;
+    box-sizing: border-box;
+    margin:0 auto;
+}
+.discountBlock:nth-child(2){
+    margin:40px auto;
+}
+.discountInfo input[type="text"]{
+    width:600px;
+}
+.discountInfo input[type="button"]{
+    width:100px;
+    height:50px;
+    background-color: #fff;
+    border:1px solid #333;
+    border-radius: 3px;
+    color:#333;
+    font-family:'pretendard-Medium';
+    font-size:18px;
+    margin-left:10px;
+
+}
+.discountTxt{
+    position:relative;
+}
+.discountTxt label{
+    margin-bottom:20px;
+    font-family:'pretendard-Medium'
+}
+.myCoupon{
+    text-align: right;
+    position:absolute;
+    right:0;
+}
+.pointGrayTxt{
+    font-size:20px;
+    color:#BBB;
+    margin-top:8px;
+    margin-bottom:8px;
+}
+/*결제*/
+.paySelectTxt{
+    font-size:25px;
+    font-family : 'Pretendard-Medium';
+    margin-bottom:24px;
+}
+#payment{
+    width:1132px;
+}
+.paySelect>ul>li{
+    height:90px;
+    border:1px solid #bbb;
+
+}
+.paySelect>ul>li.select{
+    border:2px solid #FF9E57;
+}
+.paySelect>ul>li.select>a{
+    color:#FF9E57
+}
+
+.paySelect>ul>li>a{
+    display:block;
+    height:90px;
+    line-height:90px;
+    font-size:20px;
+    padding:0 33px;
+}
+/*무통장입금*/
+.active{
+    display:block;
+}
+#banking{
+    border:1px solid #bbb;
+    padding:35px 30px;
+    margin-top:29px;
+}
+#banking>p>label{
+    font-size:20px;
+    width:79px;
+}
+#banking>p{
+    margin-bottom:25px;
+}
+#banking>p:last-child{
+    margin-bottom:0px;
+}
+#bank{
+    width:875px;
+    height:50px;
+    padding:10px;
+    margin-left:30px;
+}
+.receiptTxt{
+    font-size:20px;
+    font-family : 'Pretendard-SemiBold';
+    margin:65px 0 32px 0;
+}
+.receiptLabel{
+    width:160px;
+    margin-right:45px;
+    font-size:20px;
+}
+
+input[type="radio"]{
+    display: none;
+}
+
+input[type="radio"] + .receiptLabel{
+    display: inline-block;
+    width:230px;
+    font-size:20px;
+    
+}
+
+input[type="radio"] + .receiptLabel:before{
+    display:inline-block;
+    content:"";
+    width:20px;
+    height:20px;
+    background-image: url("../images/radio-disabled.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border:none;
+    vertical-align: top;
+    margin-right:7px;
+
+}
+input[type="radio"]:checked + .receiptLabel:before{
+    background-image: url("../images/radio.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border:none;
+}
+.purchase>div.totalInfo{
+    margin-bottom:60px;
+}
+
+.totalSum{
+    border-bottom:1px solid #bbb;
+
+}
+.totalSum>p{
+    font-family: 'pretendard-Medium';
+    font-size:30px;
+    margin-bottom:25px;
+    position:relative;
+}
+.totalSum>p:last-child{
+    margin-bottom:38px;
+}
+.totalSum>p>span{
+    position:absolute;
+    right:0;
+}
+#total{
+    border-bottom:1px solid #333;
+}
+.totalCnt>p{
+    font-family: 'pretendard-Medium';
+    font-size:30px;
+    margin-top:57px;
+    position:relative;
+}
+.totalCnt>p>span{
+    position:absolute;
+    right:0;
+    color:#FF9E57;
+}
+/*동의*/
+#agreeForm{
+    border:1px solid #bbb;
+    padding:10px 54px;
+}
+.checkbox{
+    text-align: right;
+    vertical-align:top;
+}
+
+input[type="checkbox"] + .agreeCheckboxLabel{
+    display: inline-block;
+    width:1050px;
+    font-size:20px;
+    font-family : 'Pretendard-SemiBold';
+    height: 100px;
+    line-height:100px;
+
+}
+input[type="checkbox"] + .agreeCheckboxLabel:first-of-type{
+    border-bottom:2px solid #bbb;
+}
+
+input[type="checkbox"] + .agreeCheckboxLabel:nth-of-type(2){
+    background:url("../images/border-image.svg") no-repeat left bottom;
+}   
+
+
+input[type="checkbox"] + .agreeCheckboxLabel:before{
+    display:inline-block;
+    content:"";
+    width:25px;
+    height:25px;
+    text-align:center;
+    box-sizing: border-box;
+    margin-right:13px;
+    vertical-align: middle;
+    border-radius:5px;
+    background-image: url("../images/check-disabled.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    line-height:100px;
+}
+input[type="checkbox"]:checked + .agreeCheckboxLabel:before{
+    border-radius:5px;
+    background-image: url("../images/check.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border:none;
+    line-height:100px;
+}
+#agreeForm .important{
+    font-size:20px;
+}
+#agreeForm input:first-child label{
+    border-bottom:2px solid #bbb;
+}
+#agreeForm input:nth-child(2) label{
+    border-bottom:2px dashed #bbb;
+}
+/*결제 버튼*/
+#pay{
+    border:none;
+    margin-top:60px;
+    margin-bottom:120px;
+}
+#pay>input[type=button]{
+    width:590px;
+    height:80px;
+    font-size:24px;
+    font-family : 'Pretendard-Bold';
+    border-radius:5px;
+    cursor: pointer;
+}
+.payCancleButton{
+    border-radius: 5px;
+    border: 2px solid #FF9E57;
+    background: #FFF;
+    color:#FF9E57;
+    margin-right:16px;
+    box-sizing: border-box;
+}
+.payButton{
+    background-color: #FF9E57;
+    border:none;
+    color:#fff;
+}

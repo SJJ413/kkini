@@ -1,0 +1,257 @@
+/* 기본 설정 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+	background-color : #fff;
+	font-family : "Pretendard-Regular";
+	font-size : 18px;
+	color : #333;
+}
+ul {
+	list-style : none;
+}
+a {
+	text-decoration : none;
+	color : #333;
+}
+.wrap {
+    width: 1200px;
+    margin: 0 auto;
+}
+/* 폰트 설정 */
+@font-face {
+    font-family : 'Dangam';
+    font-weight : 1000;
+    src : url('font/ChangwonDangamAsac-Bold_0712.ttf') format('truetype');
+}
+@font-face {
+    font-family : 'Pretendard-Black';
+    font-weight : 900;
+    src : url('font/Pretendard-Black.ttf') format('truetype');
+}
+@font-face {
+    font-family : 'Pretendard-ExtraBold';
+    font-weight : 800;
+    src : url('font/Pretendard-ExtraBold.ttf') format('truetype');
+}
+@font-face {
+    font-family : 'Pretendard-Bold';
+    font-weight : 700;
+    src : url('font/Pretendard-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family : 'Pretendard-SemiBold';
+    font-weight : 600;
+    src : url('font/Pretendard-SemiBold.ttf') format('truetype');
+}
+@font-face {
+    font-family : 'Pretendard-Medium';
+    font-weight : 500;
+    src : url('font/Pretendard-Medium.ttf') format('truetype');
+}
+@font-face {
+    font-family : 'Pretendard-Regular';
+    font-weight : 400;
+    src : url('font/Pretendard-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family : 'Pretendard-Light';
+    font-weight : 300;
+    src : url('font/Pretendard-Light.ttf') format('truetype');
+}
+@font-face {
+    font-family : 'Pretendard-ExtraLight';
+    font-weight : 200;
+    src : url('font/Pretendard-ExtraLight.ttf') format('truetype');
+}
+@font-face {
+    font-family : 'Pretendard-Thin';
+    font-weight : 100;
+    src : url('font/Pretendard-Thin.ttf') format('truetype');
+}
+/* 헤더 */
+header {
+    width: 100%;
+    height: 90px;
+    background-color: #FF9E57;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+img#logo {
+    margin-top: 12px;
+    float: left;
+    cursor: pointer;
+    width: 180px;
+    height: 60px;
+}
+ul#menu {
+    font-family: 'Pretendard-Bold';
+    font-size: 18px;
+    float: left;
+    margin-top: 34px;
+    margin-left: 160px;
+}
+ul#menu li {
+    float: left;
+    margin-left: 48px;
+}
+ul#menu_small {
+    float: right;
+    font-family: 'Pretendard-Bold';
+    font-size: 12px;
+    margin-top: 34px;
+}
+ul#menu_small li {
+    float: left;
+    height: 20px;
+    line-height: 20px;
+    margin-left: 6px;
+}
+ul#menu_small img {
+    float: left;
+    width: 20px;
+    height: 20px;
+    padding-right: 3px;
+}
+ul#menu_small li:not(:last-child):after {
+    content: "|";
+    margin-left: 6px;
+}
+/* 헤더 스크롤시 색상변화 */
+.down {
+    background-color: #fff;
+}
+/* 푸터 */
+footer {
+    width: 100%;
+    height: 300px;
+    background-color: #EEE;
+    color: #666;
+}
+#footer1 {
+    float: left;
+    margin-top: 36px;
+    width: 300px;
+}
+#footer1 > p {
+    font-family: 'Pretendard-SemiBold';
+    font-size: 16px;
+}
+#footer1_list {
+    font-family: 'Pretendard-Regular';
+    font-size: 14px;
+    margin-top: 24px;
+}
+#footer1_list li {
+    float: left;
+    width: 100px;
+    margin-right: 12px;
+    margin-bottom: 6px;
+}
+#footer1_list_small {
+    font-family: 'Pretendard-Regular';
+    font-size: 12px;
+    float: left;
+    margin-top: 36px;
+}
+#footer1_list_small li {
+    float: left;
+    margin-right: 6px;
+}
+#footer1_list_small li:not(:last-child):after {
+    content: "|";
+    margin-left: 6px;
+}
+#footer2 {
+    float: left;
+    margin-top: 36px;
+    width: 300px;
+    margin-left: 30px;
+}
+#footer2 > p {
+    font-family: 'Pretendard-SemiBold';
+    font-size: 16px;
+}
+#footer2 > div {
+    margin-top:24px;
+}
+#footer2 > div > p:first-child {
+    font-family: 'Pretendard-Medium';
+    font-size: 20px;
+}
+#footer2 > div > p:first-child > span {
+    font-family: 'Pretendard-Bold';
+}
+#footer2 > div > p:nth-child(2) {
+    font-family: 'Pretendard-Regular';
+    font-size: 14px;
+    margin-top: 12px;
+}
+#footer2 > div > p:nth-child(3) > img {
+    width: 24px;
+    height: 24px;
+    position: relative;
+    top: 5px;
+    padding-right: 3px;
+}
+#footer2 > div > p:nth-child(3) {
+    font-family: 'Pretendard-Medium';
+    font-size: 20px;
+    margin-top: 8px;
+}
+#footer3 {
+    float: left;
+    margin-top: 36px;
+    width: 300px;
+    margin-left: 30px;
+}
+#footer3 > p {
+    font-family: 'Pretendard-SemiBold';
+    font-size: 16px;
+}
+#footer3 > div {
+    margin-top:24px;
+}
+#footer3 > div > p:first-child > img {
+    width: 24px;
+    height: 24px;
+    position: relative;
+    top: 5px;
+    padding-right: 3px;
+}
+#footer3 > div > p:first-child {
+    font-family: 'Pretendard-Medium';
+    font-size: 20px;
+    margin-top: -6px;
+    margin-bottom: 12px;
+}
+#footer3 > div > p:not(:first-child) {
+    font-family: 'Pretendard-Regular';
+    font-size: 14px;
+    margin-top: 6px;
+}
+#footer4 {
+    float: left;
+    margin-top: 36px;
+    width: 200px;
+    margin-left: 30px;
+}
+#footer4 > p {
+    font-family: 'Pretendard-SemiBold';
+    font-size: 16px;
+}
+#footer4 > div img {
+    width: 30px;
+    height: 30px;
+    margin-top: 24px;
+}
+#footer4 > div img:first-child {
+    margin-right: 6px;
+}
+#footer4 > div img:nth-child(2) {
+    margin-right: 3px;
+}

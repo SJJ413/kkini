@@ -1,0 +1,134 @@
+#notice {
+	width : 1200px;
+	height : 900px;
+	margin : 150px auto 0;
+}
+table.board-table {
+    width: 100%;
+    border-spacing: 0;
+	margin-top : 50px;
+}
+.board-table th {
+    background-color: #333;
+	color : #fff;
+    padding: 17px;
+	font-size : 18px;
+	font-family : 'Pretendard-Regular';
+	text-align : center;
+}
+.board-table th:nth-child(3){
+	text-align: right;
+	padding-right : 70px;
+}
+.board-table td {
+    border-bottom: 1px solid #333;
+    padding: 17px;
+	font-size : 18px;
+	text-align: center;
+	height : 30px;
+}
+.board-table td:nth-child(2) {
+    text-align: left;
+	font-size : 16px;
+	font-family : 'Pretendard-Regular';
+	width : 656px;
+}
+.board-table td:nth-child(3){
+	font-size : 16px;
+	font-family : 'Pretendard-Regular';
+	text-align: right;
+	padding-right : 40px;
+}
+.page {
+    text-align: center;
+    padding: 43px;
+	position : relative;
+	z-index : 5;
+}
+.page span {
+	display : inline-block;
+	width : 30px;
+	height : 30px;
+	line-height : 30px;
+	background-color : #FF9E57;
+	border-radius : 5px;
+	margin-right : 5px;
+}
+.page span a {
+	color: white;
+	font-family : 'Pretendard-Bold';
+	font-size : 14px;
+}
+.page span:nth-child(2) {
+	background-color : #fff;
+	border : 1px solid #FF9E57;
+}
+.page span:nth-child(2) a{
+	color : #FF9E57;
+}
+
+
+
+
+
+.contents {
+	width : 1200px;
+	height : 735px;
+	margin : 0 auto;
+}
+.tabmenu {
+	width : 1200px;
+	height : 735px;
+	float : left;
+	margin : 10px 0;
+	position : relative;
+}
+.tabmenu > li {
+	width : 200px;
+	float : left;
+	line-height : 60px;
+}
+.tabmenu > li > a {
+	height : 60px;
+	display : block;
+	font-size : 24px;
+	font-family : 'Pretendard-Bold';
+	text-align : center;
+	border : 1px solid #bbb;
+	background-color : #eee;
+	color : #bbb;
+	border-bottom : 1px solid #333;
+	border-radius : 10px 10px 0 0;
+}
+.tabmenu > li:first-child a {
+	border-right : none;
+}
+.tabmenu > li > a:hover {
+	background-color : #eee;
+}
+.tabmenu > li.active > a {
+	background-color : #fff;
+	border : 1px solid #333;
+	color : #333;
+}
+.tabmenu > li div {
+	position : absolute;
+	left : 0;
+	height : 0;
+	overflow : hidden;
+}
+.tabmenu > li.active div {
+	width : 1200px;
+	height : 1050px;
+	z-index : 1;
+}
+.board-table {
+	position : relative;
+	top : -50px;
+}
+
+
+td,tr {
+	line-height : 25px;
+}
+

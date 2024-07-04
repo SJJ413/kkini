@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>끼니지키미</title>
+    <link rel="stylesheet" href="css/common.css" />
+	<link rel="stylesheet" href="css/Shop.css" />
+</head>
+<body>
+    <header>
+        <div class="wrap">
+            <img src="images/logo.svg" alt="로고" id="logo"/>
+            <ul id="menu">
+                <li><a href="javascript:;">지키미 이야기</a></li>
+                <li><a href="javascript:;">반찬 둘러보기</a></li>
+                <li><a href="javascript:;">공지사항</a></li>
+                <li><a href="javascript:;">고객문의</a></li>
+            </ul>
+            <ul id="menu_small">
+                <li><a href="javascript:;"><img src="images/iconB/cart.png" alt="장바구니" />장바구니</a></li>
+                <li><a href="javascript:;">회원가입</a></li>
+                <li><a href="javascript:;">로그인</a></li>
+            </ul>
+        </div>
+    </header>
+	<!--상단배너 영역-->
+	<img class="banner" src="images/banner/shopBanner1.png" alt="배너1" width="1920px" height="300px"/>
+	<!--반찬메뉴 영역-->
+	<div id="navi">
+		<ul class="menu" id="summer">
+		<!--스크롤되야 하는 부분이 위쪽으로 div height:80px;(그 이유는 헤더가 해당 스크롤 페이지의 맨 위를 가리기 때문)해야하는데 summer의 경우는 마땅치 않아 여기에 삽입-->
+			<li><a href="#summer">여름 시즌 반찬</a></li>
+			<li><a href="#soup">국/찌개</a></li>
+			<li><a href="#vege">나물/무침</a></li>
+			<li><a href="#fry">조림/볶음</a></li>
+			<li><a href="#grill">구이/찜</a></li>
+			<li><a href="#kimchi">김치</a></li>
+			<li><a href="#set">반찬SET</a></li>
+		</ul>
+	</div>
+	<!--전체 영역1-->
+	<div class="wrap">
+		<!--필터&목록형태 영역-->
+		<div id="etc">
+			<div class="filter">
+				<p><img src="images/IconO/filter.png" alt="필터"/>필터</p>
+			</div>
+			<div class="listView">
+				<img src="images/IconO/listVew1.png" alt="목록형태1"/>
+				<img src="images/IconO/listVew2.png" alt="목록형태2"/>
+			</div>
+		</div>
+		<!--반찬 리스트 영역1-->
+		<div class="shoplist">
+			<aside id="title">
+				<h4>Summer</h4>
+				<div>
+					<h3>여름 시즌 반찬</h3><span>더보기</span>
+				</div>
+			</aside>
+			<!--반찬 영역-->
+			<ul>
+				<li id="box"><a href="Shop-product.html">
+					<img src="images/Thumbnail/Thumbnail1.png" alt="썸네일"/>
+					<div id="subText">
+						<h3>브로콜리 두부무침</h3>
+						<p class="details">
+							비건인증 완료! 건강한 재료로<br> 
+							낼 수 있는 최대의 감칠맛
+						</p>
+						<p class="price">3,500원</p>
+					</div></a>
+				</li>
+				<li id="box"><a href="Shop-product.html">
+					<img src="images/Thumbnail/Thumbnail2.png" alt="썸네일"/>
+					<div id="subText">
+						<h3>브로콜리 두부무침</h3>
+						<p class="details">
+							삶은 두부와 달달한 김치볶음의 만남!<br>
+							간단한 한 끼 식사에도, 반찬에도 제격
+						</p>
+						<p class="price">3,500원</p>
+					</div></a>
+				</li>
+				<li id="box"><a href="Shop-product.html">
+					<img src="images/Thumbnail/Thumbnail3.png" alt="썸네일"/>
+					<div id="subText">
+						<h3>브로콜리 두부무침</h3>
+						<p class="details">
+							5-6월 제철 마늘쫑과 건새우를 볶은<br> 
+							계속 손이 가는 달달짭짤 밥도둑
+						</p>
+						<p class="price">3,500원</p>
+					</div></a>
+				</li>
+			</ul>
+		</div>
+		<!--반찬 리스트 영역2-->
+		<div class="shoplist">
+			<aside id="title">
+				<h4>Best</h4>
+				<div>
+					<h3>저번주 인기반찬</h3><span>더보기</span>
+				</div>
+			</aside>
+			<!--반찬 영역-->
+			<ul>
+				<li id="box"><a href="Shop-product.html">
+					<img src="images/Thumbnail/Thumbnail4.png" alt="썸네일"/>
+					<div id="subText">
+						<h3>메추리알 꽈리고추 장조림</h3>
+						<p class="details">
+							무항생제 메추리알과 <br> 
+							신선한 꽈리고추의 달큰한 만남
+						</p>
+						<p class="price">3,500원</p>
+					</div></a>
+				</li>
+				<li id="box"><a href="Shop-product.html">
+					<img src="images/Thumbnail/Thumbnail1.png" alt="썸네일"/>
+					<div id="subText">
+						<h3>브로콜리 두부무침</h3>
+						<p class="details">
+							비건인증 완료! 건강한 재료로<br> 
+							낼 수 있는 최대의 감칠맛
+						</p>
+						<p class="price">3,500원</p>
+					</div></a>
+				</li>
+				<li id="box"><a href="Shop-product.html">
+					<img src="images/Thumbnail/Thumbnail2.png" alt="썸네일"/>
+					<div id="subText">
+						<h3>브로콜리 두부무침</h3>
+						<p class="details">
+							삶은 두부와 달달한 김치볶음의 만남!<br>
+							간단한 한 끼 식사에도, 반찬에도 제격
+						</p>
+						<p class="price">3,500원</p>
+					</div></a>
+				</li>
+				<li id="box"><a href="Shop-product.html">
+					<img src="images/Thumbnail/Thumbnail3.png" alt="썸네일"/>
+					<div id="subText">
+						<h3>브로콜리 두부무침</h3>
+						<p class="details">
+							5-6월 제철 마늘쫑과 건새우를 볶은<br> 
+							계속 손이 가는 달달짭짤 밥도둑
+						</p>
+						<p class="price">3,500원</p>
+					</div></a>
+				</li>
+				<li id="box"><a href="Shop-product.html">
+					<img src="images/Thumbnail/Thumbnail4.png" alt="썸네일"/>
+					<div id="subText">
+						<h3>메추리알 꽈리고추 장조림</h3>
+						<p class="details">
+							무항생제 메추리알과 <br> 
+							신선한 꽈리고추의 달큰한 만남
+						</p>
+						<p class="price">3,500원</p>
+					</div></a>
+				</li>
+				<li id="box"><a href="Shop-product.html">
+					<img src="images/Thumbnail/Thumbnail1.png" alt="썸네일"/>
+					<div id="subText">
+						<h3>브로콜리 두부무침</h3>
+						<p class="details">
+							비건인증 완료! 건강한 재료로<br> 
+							낼 수 있는 최대의 감칠맛
+						</p>
+						<p class="price">3,500원</p>
+					</div></a>
+				</li>
+			</ul>
+		</div>
+	</div> 
+		<!--중간 배너 영역-->
+		<img class="banner2" src="images/banner/shopBanner2.png" alt="배너2" width="1920px" height="200px"/>
+	<!--전체 영역2-->
+	<div class="wrap">
+		<!--반찬 리스트 영역3-->
+		<div id="soup"></div>
+		<div class="shoplist">
+			<aside id="title">
+				<h4>Soup</h4>
+				<div>
+					<h3>국 / 찌개</h3><span>더보기</span>
+				</div>
+			</aside>
+			<!--반찬 영역-->
+			<ul>
+				<li id="box"><a href="Shop-product.html">
+					<img src="images/Thumbnail/Thumbnail4.png" alt="썸네일"/>
+					<div id="subText">
+						<h3>메추리알 꽈리고추 장조림</h3>
+						<p class="details">
+							무항생제 메추리알과 <br> 
+							신선한 꽈리고추의 달큰한 만남
+						</p>
+						<p class="price">3,500원</p>
+					</div></a>
+				</li>
+				<li id="box"><a href="Shop-product.html">
+					<img src="images/Thumbnail/Thumbnail1.png" alt="썸네일"/>
+					<div id="subText">
+						<h3>브로콜리 두부무침</h3>
+						<p class="details">
+							비건인증 완료! 건강한 재료로<br> 
+							낼 수 있는 최대의 감칠맛
+						</p>
+						<p class="price">3,500원</p>
+					</div></a>
+				</li>
+				<li id="box"><a href="Shop-product.html">
+					<img src="images/Thumbnail/Thumbnail2.png" alt="썸네일"/>
+					<div id="subText">
+						<h3>브로콜리 두부무침</h3>
+						<p class="details">
+							삶은 두부와 달달한 김치볶음의 만남!<br>
+							간단한 한 끼 식사에도, 반찬에도 제격
+						</p>
+						<p class="price">3,500원</p>
+					</div></a>
+				</li>
+				<li id="box"><a href="Shop-product.html">
+					<img src="images/Thumbnail/Thumbnail3.png" alt="썸네일"/>
+					<div id="subText">
+						<h3>브로콜리 두부무침</h3>
+						<p class="details">
+							5-6월 제철 마늘쫑과 건새우를 볶은<br> 
+							계속 손이 가는 달달짭짤 밥도둑
+						</p>
+						<p class="price">3,500원</p>
+					</div></a>
+				</li>
+				<li id="box"><a href="Shop-product.html">
+					<img src="images/Thumbnail/Thumbnail4.png" alt="썸네일"/>
+					<div id="subText">
+						<h3>메추리알 꽈리고추 장조림</h3>
+						<p class="details">
+							무항생제 메추리알과 <br> 
+							신선한 꽈리고추의 달큰한 만남
+						</p>
+						<p class="price">3,500원</p>
+					</div></a>
+				</li>
+				<li id="box"><a href="Shop-product.html">
+					<img src="images/Thumbnail/Thumbnail1.png" alt="썸네일"/>
+					<div id="subText">
+						<h3>브로콜리 두부무침</h3>
+						<p class="details">
+							비건인증 완료! 건강한 재료로<br> 
+							낼 수 있는 최대의 감칠맛
+						</p>
+						<p class="price">3,500원</p>
+					</div></a>
+				</li>
+			</ul>
+		</div>
+		<!--반찬 리스트 영역4-->
+		<div id="vege"></div>
+		<div class="shoplist">
+			<aside id="title">
+				<h4>Vegetables</h4>
+				<div>
+					<h3>나물 / 무침</h3><span>더보기</span>
+				</div>
+			</aside>
+			<!--반찬 영역-->
+			<ul>
+				<li id="box"><a href="Shop-product.html">
+					<img src="images/Thumbnail/Thumbnail4.png" alt="썸네일"/>
+					<div id="subText">
+						<h3>메추리알 꽈리고추 장조림</h3>
+						<p class="details">
+							무항생제 메추리알과 <br> 
+							신선한 꽈리고추의 달큰한 만남
+						</p>
+						<p class="price">3,500원</p>
+					</div></a>
+				</li>
+				<li id="box"><a href="Shop-product.html">
+					<img src="images/Thumbnail/Thumbnail1.png" alt="썸네일"/>
+					<div id="subText">
+						<h3>브로콜리 두부무침</h3>
+						<p class="details">
+							비건인증 완료! 건강한 재료로<br> 
+							낼 수 있는 최대의 감칠맛
+						</p>
+						<p class="price">3,500원</p>
+					</div></a>
+				</li>
+				<li id="box"><a href="Shop-product.html">
+					<img src="images/Thumbnail/Thumbnail2.png" alt="썸네일"/>
+					<div id="subText">
+						<h3>브로콜리 두부무침</h3>
+						<p class="details">
+							삶은 두부와 달달한 김치볶음의 만남!<br>
+							간단한 한 끼 식사에도, 반찬에도 제격
+						</p>
+						<p class="price">3,500원</p>
+					</div></a>
+				</li>
+				<li id="box"><a href="Shop-product.html">
+					<img src="images/Thumbnail/Thumbnail3.png" alt="썸네일"/>
+					<div id="subText">
+						<h3>브로콜리 두부무침</h3>
+						<p class="details">
+							5-6월 제철 마늘쫑과 건새우를 볶은<br> 
+							계속 손이 가는 달달짭짤 밥도둑
+						</p>
+						<p class="price">3,500원</p>
+					</div></a>
+				</li>
+				<li id="box"><a href="Shop-product.html">
+					<img src="images/Thumbnail/Thumbnail4.png" alt="썸네일"/>
+					<div id="subText">
+						<h3>메추리알 꽈리고추 장조림</h3>
+						<p class="details">
+							무항생제 메추리알과 <br> 
+							신선한 꽈리고추의 달큰한 만남
+						</p>
+						<p class="price">3,500원</p>
+					</div></a>
+				</li>
+				<li id="box"><a href="Shop-product.html">
+					<img src="images/Thumbnail/Thumbnail1.png" alt="썸네일"/>
+					<div id="subText">
+						<h3>브로콜리 두부무침</h3>
+						<p class="details">
+							비건인증 완료! 건강한 재료로<br> 
+							낼 수 있는 최대의 감칠맛
+						</p>
+						<p class="price">3,500원</p>
+					</div></a>
+				</li>
+			</ul>
+		</div>
+		<!--반찬 리스트 영역5-->
+		<div id="fry"></div>
+		<div class="shoplist">
+			<aside id="title">
+				<h4>Boiled/Stir-fry</h4>
+				<div>
+					<h3>조림 / 볶음</h3><span>더보기</span>
+				</div>
+			</aside>
+			<!--반찬 영역-->
+			<ul>
+				<li id="box"><a href="Shop-product.html">
+					<img src="images/Thumbnail/Thumbnail4.png" alt="썸네일"/>
+					<div id="subText">
+						<h3>메추리알 꽈리고추 장조림</h3>
+						<p class="details">
+							무항생제 메추리알과 <br> 
+							신선한 꽈리고추의 달큰한 만남
+						</p>
+						<p class="price">3,500원</p>
+					</div></a>
+				</li>
+				<li id="box"><a href="Shop-product.html">
+					<img src="images/Thumbnail/Thumbnail1.png" alt="썸네일"/>
+					<div id="subText">
+						<h3>브로콜리 두부무침</h3>
+						<p class="details">
+							비건인증 완료! 건강한 재료로<br> 
+							낼 수 있는 최대의 감칠맛
+						</p>
+						<p class="price">3,500원</p>
+					</div></a>
+				</li>
+				<li id="box"><a href="Shop-product.html">
+					<img src="images/Thumbnail/Thumbnail2.png" alt="썸네일"/>
+					<div id="subText">
+						<h3>브로콜리 두부무침</h3>
+						<p class="details">
+							삶은 두부와 달달한 김치볶음의 만남!<br>
+							간단한 한 끼 식사에도, 반찬에도 제격
+						</p>
+						<p class="price">3,500원</p>
+					</div></a>
+				</li>
+				<li id="box"><a href="Shop-product.html">
+					<img src="images/Thumbnail/Thumbnail3.png" alt="썸네일"/>
+					<div id="subText">
+						<h3>브로콜리 두부무침</h3>
+						<p class="details">
+							5-6월 제철 마늘쫑과 건새우를 볶은<br> 
+							계속 손이 가는 달달짭짤 밥도둑
+						</p>
+						<p class="price">3,500원</p>
+					</div></a>
+				</li>
+				<li id="box"><a href="Shop-product.html">
+					<img src="images/Thumbnail/Thumbnail4.png" alt="썸네일"/>
+					<div id="subText">
+						<h3>메추리알 꽈리고추 장조림</h3>
+						<p class="details">
+							무항생제 메추리알과 <br> 
+							신선한 꽈리고추의 달큰한 만남
+						</p>
+						<p class="price">3,500원</p>
+					</div></a>
+				</li>
+				<li id="box"><a href="Shop-product.html">
+					<img src="images/Thumbnail/Thumbnail1.png" alt="썸네일"/>
+					<div id="subText">
+						<h3>브로콜리 두부무침</h3>
+						<p class="details">
+							비건인증 완료! 건강한 재료로<br> 
+							낼 수 있는 최대의 감칠맛
+						</p>
+						<p class="price">3,500원</p>
+					</div></a>
+				</li>
+			</ul>
+		</div>
+		<!--반찬 리스트 영역6-->
+		<div id="grill"></div>
+		<div class="shoplist">
+			<aside id="title">
+				<h4>Grilled/Steamed dish</h4>
+				<div>
+					<h3>구이 / 찜</h3><span>더보기</span>
+				</div>
+			</aside>
+			<!--반찬 영역-->
+			<ul>
+				<li id="box"><a href="Shop-product.html">
+					<img src="images/Thumbnail/Thumbnail4.png" alt="썸네일"/>
+					<div id="subText">
+						<h3>메추리알 꽈리고추 장조림</h3>
+						<p class="details">
+							무항생제 메추리알과 <br> 
+							신선한 꽈리고추의 달큰한 만남
+						</p>
+						<p class="price">3,500원</p>
+					</div></a>
+				</li>
+				<li id="box"><a href="Shop-product.html">
+					<img src="images/Thumbnail/Thumbnail1.png" alt="썸네일"/>
+					<div id="subText">
+						<h3>브로콜리 두부무침</h3>
+						<p class="details">
+							비건인증 완료! 건강한 재료로<br> 
+							낼 수 있는 최대의 감칠맛
+						</p>
+						<p class="price">3,500원</p>
+					</div></a>
+				</li>
+				<li id="box"><a href="Shop-product.html">
+					<img src="images/Thumbnail/Thumbnail2.png" alt="썸네일"/>
+					<div id="subText">
+						<h3>브로콜리 두부무침</h3>
+						<p class="details">
+							삶은 두부와 달달한 김치볶음의 만남!<br>
+							간단한 한 끼 식사에도, 반찬에도 제격
+						</p>
+						<p class="price">3,500원</p>
+					</div></a>
+				</li>
+				<li id="box"><a href="Shop-product.html">
+					<img src="images/Thumbnail/Thumbnail3.png" alt="썸네일"/>
+					<div id="subText">
+						<h3>브로콜리 두부무침</h3>
+						<p class="details">
+							5-6월 제철 마늘쫑과 건새우를 볶은<br> 
+							계속 손이 가는 달달짭짤 밥도둑
+						</p>
+						<p class="price">3,500원</p>
+					</div></a>
+				</li>
+				<li id="box"><a href="Shop-product.html">
+					<img src="images/Thumbnail/Thumbnail4.png" alt="썸네일"/>
+					<div id="subText">
+						<h3>메추리알 꽈리고추 장조림</h3>
+						<p class="details">
+							무항생제 메추리알과 <br> 
+							신선한 꽈리고추의 달큰한 만남
+						</p>
+						<p class="price">3,500원</p>
+					</div></a>
+				</li>
+				<li id="box"><a href="Shop-product.html">
+					<img src="images/Thumbnail/Thumbnail1.png" alt="썸네일"/>
+					<div id="subText">
+						<h3>브로콜리 두부무침</h3>
+						<p class="details">
+							비건인증 완료! 건강한 재료로<br> 
+							낼 수 있는 최대의 감칠맛
+						</p>
+						<p class="price">3,500원</p>
+					</div></a>
+				</li>
+			</ul>
+		</div>
+		<!--반찬 리스트 영역7-->
+		<div id="kimchi"></div>
+		<div class="shoplist">
+			<aside id="title">
+				<h4>Kimchi</h4>
+				<div>
+					<h3>김치</h3><span>더보기</span>
+				</div>
+			</aside>
+			<!--반찬 영역-->
+			<ul>
+				<li id="box"><a href="Shop-product.html">
+					<img src="images/Thumbnail/Thumbnail4.png" alt="썸네일"/>
+					<div id="subText">
+						<h3>메추리알 꽈리고추 장조림</h3>
+						<p class="details">
+							무항생제 메추리알과 <br> 
+							신선한 꽈리고추의 달큰한 만남
+						</p>
+						<p class="price">3,500원</p>
+					</div></a>
+				</li>
+				<li id="box"><a href="Shop-product.html">
+					<img src="images/Thumbnail/Thumbnail1.png" alt="썸네일"/>
+					<div id="subText">
+						<h3>브로콜리 두부무침</h3>
+						<p class="details">
+							비건인증 완료! 건강한 재료로<br> 
+							낼 수 있는 최대의 감칠맛
+						</p>
+						<p class="price">3,500원</p>
+					</div></a>
+				</li>
+				<li id="box"><a href="Shop-product.html">
+					<img src="images/Thumbnail/Thumbnail2.png" alt="썸네일"/>
+					<div id="subText">
+						<h3>브로콜리 두부무침</h3>
+						<p class="details">
+							삶은 두부와 달달한 김치볶음의 만남!<br>
+							간단한 한 끼 식사에도, 반찬에도 제격
+						</p>
+						<p class="price">3,500원</p>
+					</div></a>
+				</li>
+				<li id="box"><a href="Shop-product.html">
+					<img src="images/Thumbnail/Thumbnail3.png" alt="썸네일"/>
+					<div id="subText">
+						<h3>브로콜리 두부무침</h3>
+						<p class="details">
+							5-6월 제철 마늘쫑과 건새우를 볶은<br> 
+							계속 손이 가는 달달짭짤 밥도둑
+						</p>
+						<p class="price">3,500원</p>
+					</div></a>
+				</li>
+				<li id="box"><a href="Shop-product.html">
+					<img src="images/Thumbnail/Thumbnail4.png" alt="썸네일"/>
+					<div id="subText">
+						<h3>메추리알 꽈리고추 장조림</h3>
+						<p class="details">
+							무항생제 메추리알과 <br> 
+							신선한 꽈리고추의 달큰한 만남
+						</p>
+						<p class="price">3,500원</p>
+					</div></a>
+				</li>
+				<li id="box"><a href="Shop-product.html">
+					<img src="images/Thumbnail/Thumbnail1.png" alt="썸네일"/>
+					<div id="subText">
+						<h3>브로콜리 두부무침</h3>
+						<p class="details">
+							비건인증 완료! 건강한 재료로<br> 
+							낼 수 있는 최대의 감칠맛
+						</p>
+						<p class="price">3,500원</p>
+					</div></a>
+				</li>
+			</ul>
+		</div>
+		<!--반찬 리스트 영역8-->
+		<div id="set"></div>
+		<div class="shoplist">
+			<aside id="title">
+				<h4>Set</h4>	
+				<div>
+					<h3>인기반찬 SET</h3><span>더보기</span>
+				</div>
+			</aside>
+			<!--반찬 영역-->
+			<ul>
+				<li id="box"><a href="Shop-set.html">
+					<img src="images/Thumbnail/Thumbnail5.png" alt="썸네일"/>
+					<div id="subText">
+						<h3>추억 가득 반찬 3종</h3>
+						<p class="details">
+							어른, 아이 모두 좋아하는<br> 
+							반찬 3종 세트
+						</p>
+						<p class="price">7,900원</p>
+					</div></a>
+				</li>
+				<li id="box"><a href="Shop-set.html">
+					<img src="images/Thumbnail/Thumbnail5.png" alt="썸네일"/>
+					<div id="subText">
+						<h3>추억 가득 반찬 3종</h3>
+						<p class="details">
+							어른, 아이 모두 좋아하는<br> 
+							반찬 3종 세트
+						</p>
+						<p class="price">7,900원</p>
+					</div></a>
+				</li>
+				<li id="box"><a href="Shop-set.html">
+					<img src="images/Thumbnail/Thumbnail5.png" alt="썸네일"/>
+					<div id="subText">
+						<h3>추억 가득 반찬 3종</h3>
+						<p class="details">
+							어른, 아이 모두 좋아하는<br> 
+							반찬 3종 세트
+						</p>
+						<p class="price">7,900원</p>
+					</div></a>
+				</li>
+				<li id="box"><a href="Shop-set.html">
+					<img src="images/Thumbnail/Thumbnail5.png" alt="썸네일"/>
+					<div id="subText">
+						<h3>추억 가득 반찬 3종</h3>
+						<p class="details">
+							어른, 아이 모두 좋아하는<br> 
+							반찬 3종 세트
+						</p>
+						<p class="price">7,900원</p>
+					</div></a>
+				</li>
+				<li id="box"><a href="Shop-set.html">
+					<img src="images/Thumbnail/Thumbnail5.png" alt="썸네일"/>
+					<div id="subText">
+						<h3>추억 가득 반찬 3종</h3>
+						<p class="details">
+							어른, 아이 모두 좋아하는<br> 
+							반찬 3종 세트
+						</p>
+						<p class="price">7,900원</p>
+					</div></a>
+				</li>
+				<li id="box"><a href="Shop-set.html">
+					<img src="images/Thumbnail/Thumbnail5.png" alt="썸네일"/>
+					<div id="subText">
+						<h3>추억 가득 반찬 3종</h3>
+						<p class="details">
+							어른, 아이 모두 좋아하는<br> 
+							반찬 3종 세트
+						</p>
+						<p class="price">7,900원</p>
+					</div></a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!--탑버튼-->
+	<img class="topBtn" src="images/topBtn.png" alt="탑버튼"/>
+    <footer>
+        <div class="wrap">
+            <div id="footer1">
+                <p>커뮤니티</p>
+                <ul id="footer1_list">
+                    <li><a href="javascript:;">공지사항</a></li>
+                    <li><a href="javascript:;">이벤트</a></li>
+                    <li><a href="javascript:;">자주묻는 질문</a></li>
+                    <li><a href="javascript:;">1:1 문의</a></li>
+                </ul>
+                <ul id="footer1_list_small">
+                    <li><a href="javascript:;">끼니지키미 소개</a></li>
+                    <li><a href="javascript:;">이용약관</a></li>
+                    <li><a href="javascript:;">개인정보처리방침</a></li>
+                </ul>
+            </div>
+            <div id="footer2">
+                <p>협력제안</p>
+                <div>
+                    <p>끼니지키미와 함께하고 싶으신 분!<br><span>환영합니다.</span></p>
+                    <p>생산자 / 공급업체 / 봉사단체 / 구직자</p>
+                    <p><img src="images/iconB/email-darkgray.png" alt="이메일" />exemail.kkinigikimi.co.kr</p>
+                </div>
+            </div>
+            <div id="footer3">
+                <p>고객센터</p>
+                <div>
+                    <p><img src="images/iconB/agent.png" alt="상담원" />0000-0000</p>
+                    <p>월~금요일 08:30~17:30 / 토요일 08:30~12:00</p>
+                    <p>점심시간 12:00~13:00</p>
+                    <p>일요일, 공휴일은 휴무입니다.</p>
+                </div>
+            </div>
+            <div id="footer4">
+                <p>SNS</p>
+                <div>
+                    <a href="javascript:;"><img src="images/iconB/kakao-darkgray.png" alt="카카오톡" /></a>
+                    <a href="javascript:;"><img src="images/iconB/instagram-darkgray.png" alt="인스타그램" /></a>
+                    <a href="javascript:;"><img src="images/iconB/facebook-darkgray.png" alt="페이스북" /></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="js/jquery-1.12.3.js"></script>
+<script src="js/common.js"></script>
+<script src="js/Shop.js"></script>
+</html>

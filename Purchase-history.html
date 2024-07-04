@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>끼니지키미purchaseHistory</title>
+    <link rel="stylesheet" href="css/common.css" />
+	<link rel="stylesheet" href="css/Purchase-history.css" />
+</head>
+<body>
+    <header>
+        <div class="wrap">
+            <img src="images/logo.svg" alt="로고" id="logo"/>
+            <ul id="menu">
+                <li><a href="javascript:;">지키미 이야기</a></li>
+                <li><a href="javascript:;">반찬 둘러보기</a></li>
+                <li><a href="javascript:;">공지사항</a></li>
+                <li><a href="javascript:;">고객문의</a></li>
+            </ul>
+            <ul id="menu_small">
+                <li><a href="javascript:;"><img src="images/iconB/cart.png" alt="장바구니" />장바구니</a></li>
+                <li><a href="javascript:;">주문/배송</a></li>
+                <li><a href="javascript:;">내 정보</a></li>
+                <li><a href="javascript:;">로그아웃</a></li>
+            </ul>
+        </div>
+    </header>
+<div class="wrap contents">
+    <div class="historyDate">
+        <form id="date">
+            <input type="date"
+            name="dateSelect1">
+
+            <span>~</span>
+            <input type="date"
+            name="dateSelect2">
+        </form>
+        <input type="button" value="조회하기" onclick="date()" id="dateSelector">
+        <p class="grayTxt">최대 5년까지 조회가 가능합니다.</p>
+    </div>
+
+    <div class="historyView active">
+    
+    <div class="historyContents">
+        <h2 class="PurchaseHistoryHead">2024.06.03<a href="Purchase-history-detail.html" class="more">주문상세보기</a></h2>
+        <div class="purchaseHistory">
+        <div class="history">
+            <a href="#">
+            <div class=productImg></div>
+            <div class="productTxt">
+                <p class="titleTxt">신사골 할머니 갈비탕(800g)</p>
+                <p class="grayTxt">국물이 진하고 담백해요</p>
+                <p class="priceTxt">12,900원 / 수량 1개</p>                                    </div>
+            </a>    
+        </div>
+        <div class="history">
+            <a href="#">
+            <div class=productImg></div>
+            <div class="productTxt">
+                <p class="titleTxt">얼큰한 꽃게탕(800g)</p>
+                <p class="grayTxt">꽃게 푸짐! 국물 얼큰!</p>
+                <p class="priceTxt">25,800원 / 수량 2개</p>                                    </div>
+            </a>    
+        </div>
+        </div>
+    </div>
+    
+    <div class="historyContents">
+        <h2 class="PurchaseHistoryHead">2024.05.23<a href="#" class="more">주문상세보기</a></h2>
+        <div class="purchaseHistory">
+        <div class="history">
+            <a href="#">
+            <div class=productImg></div>
+            <div class="productTxt">
+                <p class="titleTxt">까졌다 간장새우장</p>
+                <p class="grayTxt">밥이랑 찰떡궁합</p>
+                <p class="priceTxt">17,800원 / 수량 2개</p>                                    </div>
+            </a>    
+        </div>
+        <div class="history">
+            <a href="#">
+            <div class=productImg></div>
+            <div class="productTxt">
+                <p class="titleTxt">버터 마늘 닭볶음탕</p>
+                <p class="grayTxt">버터로 향긋하고 마늘로 담백하게</p>
+                <p class="priceTxt">24,900원 / 수량 1개</p>                                    </div>
+            </a>    
+        </div>
+        </div>
+    </div>
+
+    <div class="historyContents">
+        <h2 class="PurchaseHistoryHead">2024.05.19<a href="#"  class="more">주문상세보기</a></h2>
+        <div class="purchaseHistory">
+        <div class="history">
+            <a href="#">
+            <div class=productImg></div>
+            <div class="productTxt">
+                <p class="titleTxt">곱창볶음 3종세트</p>
+                <p class="grayTxt">세 가지 소스에 볶은 곱창볶음세트</p>
+                <p class="priceTxt">27,900원 / 수량 1개</p>                                    </div>
+            </a>    
+        </div>
+        <div class="history">
+            <a href="#">
+            <div class=productImg></div>
+            <div class="productTxt">
+                <p class="titleTxt">영양만점 가지 갈비</p>
+                <p class="grayTxt">간장 베이스 소스와 함께하는 가지갈비</p>
+                <p class="priceTxt">8,900원 / 수량 2개</p>                                    </div>
+            </a>    
+        </div>
+        </div>
+    </div>
+
+    <div class="historyContents">
+        <h2 class="PurchaseHistoryHead">2024.04.30<a href="#"  class="more">주문상세보기</a></h2>
+        <div class="purchaseHistory">
+        <div class="history">
+            <a href="#">
+            <div class=productImg></div>
+            <div class="productTxt">
+                <p class="titleTxt">브로콜리 두부무침</p>
+                <p class="grayTxt">비건인증 완료! 건강한 재료로  낼 수 있는 최대의 감칠맛</p>
+                <p class="priceTxt">3,500원 / 수량 2개</p>                                    </div>
+            </a>    
+        </div>
+        <div class="history">
+            <a href="#">
+            <div class=productImg></div>
+            <div class="productTxt">
+                <p class="titleTxt">홈스타일 계란말이</p>
+                <p class="grayTxt">집에서 말아먹던 계란말이 그대로</p>
+                <p class="priceTxt">3,900원 / 수량 3개</p>                                    </div>
+            </a>    
+        </div>
+        </div>
+    </div>
+    </div>
+</div>
+    <!--푸터-->
+<footer>
+    <div class="wrap">
+        <div id="footer1">
+            <p>커뮤니티</p>
+            <ul id="footer1_list">
+                <li><a href="javascript:;">공지사항</a></li>
+                <li><a href="javascript:;">이벤트</a></li>
+                <li><a href="javascript:;">자주묻는 질문</a></li>
+                <li><a href="javascript:;">1:1 문의</a></li>
+            </ul>
+            <ul id="footer1_list_small">
+                <li><a href="javascript:;">끼니지키미 소개</a></li>
+                <li><a href="javascript:;">이용약관</a></li>
+                <li><a href="javascript:;">개인정보처리방침</a></li>
+            </ul>
+        </div>
+        <div id="footer2">
+            <p>협력제안</p>
+            <div>
+                <p>끼니지키미와 함께하고 싶으신 분!<br><span>환영합니다.</span></p>
+                <p>생산자 / 공급업체 / 봉사단체 / 구직자</p>
+                <p><img src="images/iconB/email-darkgray.png" alt="이메일" />exemail.kkinigikimi.co.kr</p>
+            </div>
+        </div>
+        <div id="footer3">
+            <p>고객센터</p>
+            <div>
+                <p><img src="images/iconB/agent.png" alt="상담원" />0000-0000</p>
+                <p>월~금요일 08:30~17:30 / 토요일 08:30~12:00</p>
+                <p>점심시간 12:00~13:00</p>
+                <p>일요일, 공휴일은 휴무입니다.</p>
+            </div>
+        </div>
+        <div id="footer4">
+            <p>SNS</p>
+            <div>
+                <a href="javascript:;"><img src="images/iconB/kakao-darkgray.png" alt="카카오톡" /></a>
+                <a href="javascript:;"><img src="images/iconB/instagram-darkgray.png" alt="인스타그램" /></a>
+                <a href="javascript:;"><img src="images/iconB/facebook-darkgray.png" alt="페이스북" /></a>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+<script src="js/jquery-1.12.3.js"></script>
+<script src="js/common.js"></script>
+<script src="js/페이지이름.js"></script>
+</html>

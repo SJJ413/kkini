@@ -1,0 +1,89 @@
+/* 기본 설정 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+	background-color : #fff;
+	font-family : "Pretendard-Regular";
+	font-size : 18px;
+	color : #333;
+}
+ul {
+	list-style : none;
+}
+a {
+	text-decoration : none;
+	color : #333;
+}
+.wrap {
+    width: 1200px;
+    margin: 0 auto;
+}
+#logo{
+    width:180px;
+    height:60px;
+}
+input{
+    cursor: pointer;
+}
+/*본문*/
+.cart{
+    border-top:1px solid #333;
+    border-bottom:1px solid #333;
+    margin-top:84px;
+    margin-bottom:41px;
+}
+.cartMain{
+    margin-top:178px;
+}
+.cartTab{
+    border-bottom:1px solid #BBBBBB;
+    height:64px;
+}
+.cartTab>li{
+    float:left;
+    font-size:20px;
+    line-height:64px;
+}
+.checkbox{
+    width:110px;
+    height:64px;
+}
+input[type="checkbox"]{
+    display: none;
+}
+.info{
+    width:604px;
+    text-align:center;
+}
+.count{
+    width:162px;
+    text-align:center;
+}
+.price{
+    width:162px;
+    text-align:center;
+}
+.point{
+    width:162px;
+    text-align:center;
+}
+.cartEmpty{
+    text-align:center;
+    padding:100px 0;
+}
+.emptyButton{
+    text-align: center;
+}
+.emptyButton>input[type=button]{
+    width:500px;
+    height:80px;
+    text-align: center;
+    font-weight:bold;
+    font-size:20px;
+    border:none;
+    margin-bottom:190px;
+}
+

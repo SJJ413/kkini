@@ -1,0 +1,142 @@
+article {
+	width : 1200px;
+	min-height : 900px;
+	margin : 150px auto 0;
+}
+
+table.board-table {
+    width: 100%;
+    border-spacing: 0;
+	margin-top : 50px;
+}
+.container {
+	width : 1200px;
+	min-height : 800px;
+	margin : 150px auto 0;
+	text-align : center;
+}
+.title {
+	width : 300px;
+	height : 100px;
+	margin : 0 auto;
+}
+.title h2 {
+	font-size : 40px;
+	font-family : 'Pretendard-Bold';
+}
+.title p {
+	float : left;
+	margin-top : 20px;
+	padding-left : 40px;
+}
+.search img {
+	width : 26px;
+	height : 26px;
+	position : relative;
+	top : 13px;
+}
+.search {
+	float : right;
+	margin-right : 30px;
+	margin-top : 40px;
+	padding-bottom : 10px;
+}
+.bottom-border {
+	width : 250px;
+	padding : 10px;
+	border-width : 0 0 2px;
+	border-bottom-color : #BBB;
+}
+input:focus {
+	outline: none;
+}
+
+.infoLink {
+	float : left;
+	margin-top : 65px;
+	margin-left : 40px;
+}
+.infoLink li {
+	float : left;
+	padding-right : 10px;
+	color : #bbb;
+	font-size : 15px;
+	position : relative;
+	z-index : 2;
+}
+.infoLink li a {
+	color : #bbb;
+	font-size : 15px;
+	font-family : 'Pretendard-Medium';
+}
+.infoLink li:nth-child(1) a {
+	color : #333;
+}
+.page {
+    text-align: center;
+    padding: 43px;
+	margin-top : -23px;
+}
+.page span {
+	display : inline-block;
+	width : 30px;
+	height : 30px;
+	line-height : 30px;
+	background-color : #FF9E57;
+	border-radius : 5px;
+	margin-right : 5px;
+}
+.page span a {
+	color: white;
+	font-family : 'Pretendard-Bold';
+	font-size : 14px;
+}
+.page span:nth-child(2) {
+	background-color : #fff;
+	border : 1px solid #FF9E57;
+}
+.page span:nth-child(2) a{
+	color : #FF9E57;
+}
+.board-table {
+	position : relative;
+	top : -25px;
+}
+.board-table td:nth-child(3) {
+    text-align: left;
+	font-family : 'Pretendard-Light';
+}
+.board-table td {
+    border-bottom: 1px solid #eee;
+    padding: 17px;
+	font-size : 15px;
+	text-align: center;
+	font-family : 'Pretendard-Bold';
+}
+.board-table th {
+    border-bottom: 2px solid #666;
+    padding: 17px;
+}
+.board-table td:nth-child(1),.board-table td:nth-of-type(2),.board-table td:nth-of-type(5){
+	vertical-align : top;
+}
+
+.panel-faq-container {
+  margin-bottom: -16px;
+}
+.panel-faq-title {
+  cursor: pointer;
+  margin-top : -5px;
+}
+.panel-faq-answer {
+  height: 0;
+  margin-top : 15px;
+  overflow: hidden;
+  transition: all 1s;
+}
+.active {
+  display: block;
+  height: 100px;
+}
+
+

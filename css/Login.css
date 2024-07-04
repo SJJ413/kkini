@@ -1,0 +1,111 @@
+h2 {
+    display: block;
+    width: 480px;
+    margin: 210px auto 72px;
+    font-weight: normal;
+    font-family: 'Pretendard-Bold';
+    font-size: 32px;   
+}
+#loginContents {
+    width: 480px;
+    height: 510px;
+    margin: 0 auto 120px;
+}
+input[type=text] {
+    width: 480px;
+    height: 50px;
+    border: 1px solid #bbb;
+    border-radius: 3px;
+    outline: none;
+    padding-left: 12px;
+    margin-bottom: 18px;
+}
+input[type=text]::placeholder {
+    font-family: 'Pretendard-Light';
+    font-size: 20px;
+    color: #bbb;
+}
+input[type=checkbox] {
+    appearance: none;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    margin-top: -3px;
+}
+input[type=checkbox]:checked {
+    appearance: none;
+    border: none;
+    background-color: #FF9E57;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+}
+input[type=checkbox]:checked:before {
+    content: "";
+    background: url("../images/IconW/check.png");
+    background-repeat: no-repeat;
+    background-size: 30px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: -1px;
+}
+label {
+    font-family: 'Pretendard-Regular';
+    font-size: 20px;
+    margin-left: 6px;
+}
+#loginContents span {
+    font-family: 'Pretendard-Regular';
+    font-size: 20px;
+    color: #bbb;
+    text-decoration: underline;
+    cursor: pointer;
+    float: right;
+}
+input[type=button] {
+    width: 480px;
+    height: 72px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 3px;
+    background-color: #FF9E57;
+    color: #fff;
+    font-family: 'Pretendard-Bold';
+    font-size: 24px;
+    cursor: pointer;
+}
+#loginContents p {
+    font-family: 'Pretendard-Regular';
+    font-size: 20px;
+    text-align: center;
+    margin: 30px 0;
+    color: #bbb;
+}
+#loginContents p.joinBtn {
+    width: 100px;
+    margin: 30px auto;
+    color: #333;
+    cursor: pointer;
+}
+em.line {
+    display: block;
+    width: 480px;
+    height: 1px;
+    background-color: #bbb;
+}
+#loginContents img {
+    float: left;
+    margin-right: 29px;
+    cursor: pointer;
+}
+#loginContents img:last-child {
+    float: right;
+    margin-right: 0;
+}
+input:-webkit-autofill {
+    box-shadow: 0 0 0px 1000px #fff inset;
+}

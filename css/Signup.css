@@ -1,0 +1,90 @@
+h2 {
+    display: block;
+    width: 480px;
+    margin: 210px auto 72px;
+    font-weight: normal;
+    font-family: 'Pretendard-Bold';
+    font-size: 32px;   
+}
+#signupContents {
+    width: 480px;
+    margin: 0 auto 120px;
+}
+input:-webkit-autofill {
+    box-shadow: 0 0 0px 1000px #fff inset;
+}
+input[type=text], input[type=password], input[type=number], select {
+    float: left;
+    width: 480px;
+    height: 50px;
+    border: 1px solid #bbb;
+    border-radius: 3px;
+    outline: none;
+    padding-left: 12px;
+    margin-bottom: 18px;
+}
+input#id, input[type=text]:last-child {
+    width: 302px;
+}
+input[type=number] {
+    float: left;
+    width: 130px;   
+}
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+input[type=number]:last-child {
+    float: right;
+}
+input[type=text]::placeholder, input[type=password]::placeholder, input[type=number]::placeholder {
+    font-family: 'Pretendard-Light';
+    font-size: 20px;
+    color: #bbb;
+}
+select {
+    width: 112px;
+    font-family: 'Pretendard-Light';
+    font-size: 20px;
+    margin-left: 20px;
+}
+select[name=year] {
+    width: 216px;
+    margin-left: 0;
+}
+input[type=button] {
+    width: 480px;
+    height: 72px;
+    border: none;
+    border-radius: 3px;
+    background-color: #FF9E57;
+    color: #fff;
+    font-family: 'Pretendard-Bold';
+    font-size: 24px;
+    cursor: pointer;
+}
+input[type=button]:not(:last-child) {
+    width: 160px;
+    height: 50px;
+    border: none;
+    border-radius: 3px;
+    background-color: #FF9E57;
+    color: #fff;
+    font-family: 'Pretendard-Medium';
+    font-size: 20px;
+    cursor: pointer;
+}
+input[type=button]#idCheck {
+    margin-left: 18px;
+}
+input[type=button]#sendCode {
+    float: left;
+    margin-right: 18px;
+}
+p.dash {
+    float: left;
+    width: 45px;
+    text-align: center;
+    position: relative;
+    top: 12px;
+}

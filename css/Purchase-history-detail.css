@@ -1,0 +1,270 @@
+/* 기본 설정 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing:-0.03em;
+}
+body {
+	background-color : #fff;
+	font-family : "Pretendard-Regular";
+	font-size : 18px;
+	color : #333;
+}
+ul {
+	list-style : none;
+}
+a {
+	text-decoration : none;
+	color : #333;
+}
+.wrap {
+    width: 1200px;
+    margin: 0 auto;
+}
+#logo{
+    width:180px;
+    height:60px;
+}
+/*본문*/
+
+.orderDetailHead{
+    font-family : 'Pretendard-Bold';
+    font-size:30px;
+    margin-bottom:43px;
+}
+.orderwrap>div{
+    margin-top:150px;
+}
+.orderwrap>div>div{
+    border-top:2px solid #333;
+}
+.order{
+    height:456px;
+}
+.orderDetail{
+    margin-top:235px;
+}
+.orderDetail a h2{
+    vertical-align: top;
+}
+.orderDetail a h2 img{
+    margin-right:27px;
+    vertical-align: text-bottom;
+}
+.orderTab{
+    width:1200px;
+    height:77px;
+    border-bottom:1px solid #bbb;
+}
+.orderTab>li{
+    float:left;
+    text-align: center;
+}
+.orderNumber{
+    width:221px;
+    height:77px;
+    line-height:77px;
+}
+.contents{
+    width:571px;
+    height:77px;
+    line-height:77px;
+}
+.progress{
+    width:230px;
+    height:77px;
+    line-height:77px;
+}
+.orderBtns{
+    width:178px;
+    height:77px;
+    line-height:77px;
+}
+
+
+.orderDate{
+    height:378px;
+    padding:142px 0;
+    border-right:1px solid #bbb;
+    border-bottom:1px solid #bbb;
+    float:left;
+}
+.orderDate p{
+    line-height:48px;
+    font-size:20px;
+    text-align: center;
+}
+.orderNum{
+    text-decoration: underline;
+    font-family : 'Pretendard-Medium';
+}
+.orderCon>ul>li{
+    float:left;
+}
+.orderCon{
+    width:979px;
+    height:189px;
+    border-bottom:1px solid #bbb;
+    float:left;
+}
+.orderInfo{
+    height:189px;
+    padding:35px 42px;
+}
+.productImg{
+    width:120px;
+    height:120px;
+    background-color: #bbb;
+    float:left;
+    margin-right:25px;
+}
+.orderContents>div:nth-child(2)>ul>li>div>a>div:first-child{
+    background: url(../images/galbitang.jpg) no-repeat center/cover;
+}
+.orderContents>div:nth-child(3)>ul>li>div>a>div:first-child{
+    background: url(../images/ggotgetang.jpg) no-repeat center/cover;
+}
+.productTxt{
+    width:340px;
+    height:189px;
+    float:left;
+}
+.titleTxt{
+    font-size:20px;
+    font-family : 'Pretendard-Bold';
+    line-height:24px;
+    padding:12px 0;
+
+}
+.grayTxt{
+    font-size:15px;
+    color:#BBB;
+    margin-top:8px;
+    margin-bottom:8px;
+    line-height:18px;
+}
+.priceTxt{
+    font-size:18px;
+    font-family: 'Pretendard-Bold';
+    margin-top:15px;
+    line-height:21px;
+}
+.orderProgress{
+    height:189px;
+}
+.orderProgress>p{
+    line-height:189px;
+    text-align:center;
+}
+.orderConBtns{
+    height:189px;
+    text-align: center;
+    line-height:0;
+    padding:25px 24px;
+}
+.orderConBtns input[type=button]{
+    width:130px;
+    height:40px;
+    text-align: center;
+    border-radius: 3px;
+    border:1px solid #bbb;
+    font-family : 'Pretendard-Medium';
+    font-size:20px;
+    background-color: #fff;
+    margin-bottom:10px;
+}
+#review{
+    background-color: #FF9E57;
+    border:none;
+    color:#fff;
+}
+.purchaseInfo{
+    clear:both;
+}
+.infoTxt{
+    line-height:79px;
+    font-size:30px;
+    font-family : 'Pretendard-Medium';
+    position:relative;
+}
+.infoTxtDetail{
+    position:absolute;
+    left:282px;
+    font-size: 20px;
+    font-family : 'Pretendard-Regular';
+}
+.deliveryInfoDetail, .purchaseInfoDetail{
+    position:relative;
+    padding:43px 35px;
+}
+#deliveryBtn{
+    position:absolute;
+    top:0;
+    right:25px;
+    background-color: #333;
+    width:130px;
+    height:40px;
+    color:#fff;
+}
+.payInfoDetail{
+    border-bottom:2px solid #333;
+    height:280px;
+    margin-bottom:120px;
+}
+.pay{
+    width:634px;
+    height:280px;
+    padding:49px 42px;
+    float:left;
+    text-align: center;
+    border-right:1px solid #bbb
+}
+.pay ul li{
+    display: inline-block;
+    text-align: center;
+}
+.paySum{
+    width:546px;
+    height:89px;
+}
+
+.productPay, .delivery, .discount, .total{
+    width:155px;
+    height:89px;
+    float: left;
+}
+.plus, .min, .eq{
+    width:40px;
+    height:89px;
+    float: left;
+}
+.payTxt{
+    font-size:30px;
+    font-family : 'Pretendard-Medium';
+}
+.plus>p, .min>p, .eq>p{
+    font-size:30px;
+    font-family : 'Pretendard-Light'; 
+}
+.totalPayTxt{
+    font-family : 'Pretendard-Bold'; 
+    font-size:30px;
+    color:#FF521C
+}
+.eq{
+    margin-left:157px;
+}
+.payment{
+    height:280px;
+    line-height:2;
+    padding:49px 100px;
+    float: left;
+}
+.PaymentTxt{
+    font-size:30px;
+    font-family : 'Pretendard-Medium';
+}
+.PaymentTxtRegular{
+    font-size:20px;
+}

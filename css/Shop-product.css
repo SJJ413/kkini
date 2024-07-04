@@ -1,0 +1,613 @@
+/*상품정보 영역*/
+#ProTop{
+	margin-top : 160px;
+	width : 1200px;
+	height : 610px;
+}
+#ProTop >p {
+	font-size : 16px;
+	margin-bottom : 35px;
+}
+/*상품정보 왼쪽 영역*/
+.topL{
+	width : 50%;
+	float : left;
+}
+.topL img {
+	float : right;
+	margin-right : 50px;
+	margin-top: 30px;
+}
+/*상품정보 오른쪽 영역*/
+.topR{
+	width : 50%;
+	float : right;
+}
+.titleT{
+	width : 600px;
+	height : 68px;
+	margin-bottom : 28px;
+}
+.titleT h3{
+	float : left;
+	font-size : 32px;
+	font-family : "Pretendard-Bold";
+	margin-bottom : 8px;
+}
+.titleT img {
+	float : right;
+	cursor : pointer;
+}
+.titleT p {
+	clear : both;
+	font-family : "Pretendard-Medium";
+	color : #bbb;
+}
+.proInpo h2{
+	border-top : 4px solid #FF9E57;
+	border-bottom : 1px solid #bbb;
+	padding : 24px 0;
+}
+.proInpo p {
+	margin-top : 18px;
+	color : #666;
+	font-family : "Pretendard-Medium";
+}
+.proInpo p:last-child {
+	margin-bottom : 18px;
+}
+.proInpo img {
+	position : relative;
+	top : 10px;
+	margin-right : 12px;
+}
+.number p{
+	margin-left : 40px;
+	color : #666;
+	font-family : "Pretendard-Medium";
+	float : left;
+	position : relative;
+	top : 8px;
+}
+.btn {
+	float : right;
+	margin-bottom : 20px;
+}
+/*
+.btn input{
+	width : 35px;
+	height : 35px;
+	border : 1px solid #bbb;
+	background : #fff;
+	margin-right : -6px;
+	font-size : 15px;
+}
+.btn input:last-child{
+	margin-right : 0px;
+}*/
+.down, .now, .up{
+    width:40px;
+    height:40px;
+    float:left;
+
+}
+.down{
+    border:1px solid #bbb;
+    background-image: url("../images/IconO/minplus.svg");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: none;
+	cursor : pointer;
+}
+.now{
+    border-top:1px solid #BBB;
+    border-bottom:1px solid #BBB;
+	text-align : center;
+    line-height:40px;
+    font-weight:500;
+}
+.up{
+    border:1px solid #bbb;
+    background-image: url("../images/IconO/minplus.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+    overflow: hidden;
+    white-space: wrap;
+    box-sizing: border-box;
+	cursor : pointer;
+}
+.proPrice {
+	clear : both;
+	width : ;
+}
+.proPrice p{
+	width : 100px;
+	margin-left : 40px;
+	color : #666;
+	font-family : "Pretendard-Medium";
+	float : left;
+}
+.proPrice h3{
+	float : right;
+	color : #666;
+	font-size : 30px;
+	font-family : "Pretendard-bold";
+}
+.proPrice span{
+	font-size : 20px;
+}
+.ShopBtn{
+	clear : both;
+	width : 515px;
+	height : 72px;
+	border : none;
+	border-radius : 5px;
+	margin-top : 40px;
+	background-color : #FF9E57;
+	font-size : 24px;
+	font-family : "Pretendard-bold";
+	color : #fff;
+	float: left;
+	cursor : pointer;
+}
+.heart{
+	width : 72px;
+	height : 72px;
+	border : 2px solid #FF9E57;
+	border-radius : 5px;
+	margin-top : 40px;
+	float: right;
+	cursor : pointer;
+}
+.heart img {
+	width : 30px;
+	margin : 20px;
+}
+/*장바구니 팝업*/
+#popup{
+	width : 500px;
+	height : 300px;
+	background-color : #fff;
+	box-shadow : 0 7px 15px #bfbfbf;
+	display : none;
+	border : 1px solid #bbb;
+	border-radius : 5px;
+	position : absolute;
+	z-index : 10;
+	top : 40%;
+	left : 40%;
+}
+#popup.active{
+	display : block;
+}
+#popup h2{
+	font-size : 30px;
+	margin : 76px 70px;
+}
+.popBtn {
+	width : 390px;
+	height : 60px;
+	margin : 0 auto;
+}
+.popBtn1{
+	width : 180px;
+	height : 60px;
+	border : 2px solid #FF9E57;
+	border-radius : 5px;
+	color : #FF9E57;
+	background-color : #fff;
+	font-family : "Pretendard-Bold";
+	font-size : 24px;
+	text-align : center;
+	float : left;
+	cursor : pointer;
+}
+.popBtn2{
+	width : 180px;
+	height : 60px;
+	border : none;
+	border-radius : 5px;
+	color : #fff;
+	background-color : #FF9E57;
+	font-family : "Pretendard-Bold";
+	font-size : 24px;
+	text-align : center;
+	float : right;
+	cursor : pointer;
+}
+/*하단 정보 영역*/
+#proBottom{
+	width : 1200px;
+	/*height : 4120px;*/
+}
+/*탭메뉴 영역*/
+.tabmenu {
+	width : 1200px;
+	margin-top : 105px;
+	position : relative;
+	overflow: hidden;/*예시에서 넣어져 있어서 넣음*/
+	border-bottom: 2px solid #FF521C;
+}
+.tabmenu > li {
+	width : 300px;
+	height : 60px;
+	float : left;
+}
+.tabmenu > li > a {
+	display : block;
+	font-size : 24px;
+	text-align : center;
+	background-color : #eee;
+	border-radius : 10px 10px 0px 0px;
+	color : #bbb;
+	line-height : 60px;
+}
+.tabmenu > li > a:hover{
+	background-color : #fff;
+	border : 2px solid #FF521C;
+	border-bottom : 2px solid #FF521C;
+	color : #FF521C;
+}
+.tabmenu > li.active > a {
+	background-color : #fff;
+	border : 2px solid #FF521C;
+	color : #FF521C;
+}
+.tabmenu > li.active > div {
+	display : block;
+}
+.tabmenu > li > div {
+	display : none;
+}
+/*상세페이지 영역*/
+.pageIMG {
+	width : 800px;
+	height : 2862px;
+	margin : 60px 200px;
+}
+/*상품정보제공공시*/
+.subInfo {
+	width : 1200px;
+	margin-bottom: 150px;
+}
+.subInfo aside{
+	width : 1200px;
+	height : 70px;
+	border-bottom : 2px solid #333;
+}
+.subInfo h3 {
+	font-size : 24px;
+	font-family : "Pretendard-bold";
+	float : left;
+	line-height : 70px;
+}
+.subInfo img{
+	float : right;
+	width : 60px;
+	height : 60px;
+	margin-top : 6px;
+	cursor : pointer;
+}
+.subInfo li{
+	width : 1200px;
+	height : 70px;
+	border-bottom : 1px solid #bbb;
+}
+.subInfo li:last-child{
+	border-bottom : 2px solid #333;
+}
+.subInfo li p{
+	width : 360px;
+	height : 70px;
+	float : left;
+	margin-left : 30px;
+	line-height : 70px;
+	font-family : "Pretendard-Medium";
+}
+.subInfo li span{
+	width : 800px;
+	height : 70px;
+	float : right;
+	line-height : 70px;
+}
+/*리뷰 영역*/
+.revew {
+	width : 1200px;
+}
+/*사진 영역*/
+.photo{
+	margin : 60px 0;
+}
+.photo p{
+	font-family : "Pretendard-Medium";
+	font-size : 20px;
+	margin-bottom : 10px;
+}
+.photoList{
+	width : 1200px;
+	height : 160px;
+}
+.photoList img{
+	margin-right : 8px;
+	cursor : pointer;
+}
+.photoList img:last-child{
+	margin-right : 0px;
+}
+/*리뷰 영역*/
+.revewList {
+	width : 1200px;
+}
+.revewList > p{
+	font-family : "Pretendard-Medium";
+	font-size : 20px;
+	margin-bottom : 20px;
+}
+/*리뷰 리스트 영역*/
+.revewList ul li {
+	width : 1200px;
+	height : 120px;
+	border-top : 1px solid #bbb;
+}
+.revewList ul li:last-child {
+	border-bottom : 1px solid #bbb;
+}
+.profile {
+	width : 40px;
+	height : 120px;
+	float : left;
+	margin : 0 30px;
+}
+.profile img {
+	width : 40px;
+	height : 40px;
+	margin-top : 20px;
+}
+.name {
+	font-size : 16px;
+	color : #666;
+	margin-top : 10px;
+}
+.etc{
+	float : left;
+	width : 1100px;
+}
+.etc aside {
+	width : 1075px;
+	height : 21px;
+	margin-top : 20px;
+	margin-bottom : 13px;
+}
+.etc aside img {
+	float : left;
+	width : 105px;
+	height : 20px;
+}
+.etc aside span{
+	float : right;
+	font-size : 14px;
+	width : 150px;
+	height : 14px;
+	color : #bbb;
+	letter-spacing : 2px;
+}
+.etc p {
+	font-size : 14px;
+	color : #666;
+	clear : both;
+	line-height : 22px;
+}
+/*리뷰 페이지 버튼
+.pageNum{
+	width : 80px;
+	height : 30px;
+	margin : 67px auto;
+}
+.pageNum1{
+	width : 30px;
+	height : 30px;
+	background-color : #FF9E57;
+	color : #fff;
+	font-family : "Pretendard-Bold";
+	border : none;
+	border-radius : 5px;
+	float : left;
+}
+.pageNum2{
+	width : 30px;
+	height : 30px;
+	background-color : #fff;
+	color : #FF9E57;
+	font-family : "Pretendard-Bold";
+	border : 1px solid #FF9E57;
+	border-radius : 5px;
+	float : right;
+}*/
+.page {
+    text-align: center;
+    padding: 43px;
+}
+.page span {
+	display : inline-block;
+	width : 30px;
+	height : 30px;
+	line-height : 30px;
+	background-color : #FF9E57;
+	border-radius : 5px;
+	margin-right : 5px;
+}
+.page span a {
+	color: white;
+	font-family : 'Pretendard-Bold';
+	font-size : 14px;
+}
+.page span:nth-child(2) {
+	background-color : #fff;
+	border : 1px solid #FF9E57;
+}
+.page span:nth-child(2) a{
+	color : #FF9E57;
+}
+/*문의 영역*/
+.inquiry {
+	width : 1200px;
+	height : 980px;
+}
+.inquiry > p{
+	font-family: "Pretendard-Medium";
+    font-size: 20px;
+    margin: 60px 0 20px;
+}
+/*문의 글 버튼*/
+.postBtn{
+	width : 331px;
+	height : 46px;
+	margin-bottom : 20px
+}
+.postBtn1 {
+	width : 136px;
+	height : 46px;
+	border : none;
+	border-radius : 5px;
+	background-color : #FF9E57;
+	color : #fff;
+	font-family: "Pretendard-Bold";
+    font-size: 20px;
+	margin-right : 5px;
+	cursor : pointer;
+}
+.postBtn2 {
+	width : 175px;
+	height : 46px;
+	border : none;
+	border-radius : 5px;
+	background-color : #bbb;
+	color : #fff;
+	font-family: "Pretendard-Bold";
+    font-size: 20px;
+	cursor : pointer;
+}
+/*문의 게시판*/
+.inTitle {
+	width : 1200px;
+	height : 50px;
+	border-top : 2px solid #666;
+	font-size : 15px;
+	font-family : "Pretendard-Medium";
+	line-height : 50px;
+}
+.th1{ width : 200px;}
+.th2{ width : 605px;}
+.th3{ width : 120px;}
+.th4{ width : 170px;}
+.th5{ width : 140px;}
+.inBody {
+	width : 1200px;
+	height : 50px;
+	border-top : 1px solid #bbb;
+	line-height : 50px;
+	font-size : 15px;
+	font-family : "Pretendard-Medium";
+}
+.inBody2 {
+	width : 1200px;
+	height : 190px;
+	border-top : 1px solid #bbb;
+	line-height : 50px;
+	font-size : 15px;
+	font-family : "Pretendard-Medium";
+	background-color : #EFEFEF;
+	overflow : hidden;
+}
+.td1{ width : 200px; text-align : center;}
+.td2{ width : 573px;}
+.td3{ width : 120px; text-align : center;}
+.td4{ width : 160px;  text-align : center;}
+.td5{ width : 140px;}
+.td5 span{
+	float : left;
+	margin-left : 45px;
+}
+.td5 img{
+	width : 15px;
+	height : 15px;
+	float :right;
+	margin-right : 15px;
+	margin-top : 15px;
+}
+.tablePop{
+	width : 1200px;
+	height : 160px;
+	background-color : #EFEFEF;
+	margin-top : -5px;
+	line-height : 38px;
+}
+.tablePop aside{
+	width : 1000px;
+	height : 160px;
+	margin-left : 200px;
+}
+.tablePop hr {
+	margin : 10px 0;
+}
+.tablePop img {
+	margin-right : 15px;
+	float : left;
+	margin-top : 10px;
+}
+.tablePop p {
+	float : left;
+}
+.inList > div:last-child{
+	border-bottom : 2px solid #666;
+}
+.secret{
+	color : #bbb;
+}
+/*교환/반품 안내 영역*/
+#return{
+	margin-top : 60px;
+	width : 1200px;
+	height : 2180px;
+}
+.reBody {
+	margin-bottom : 60px;
+}
+.reBody h3{
+	font-family : "Pretendard-SemiBold";
+	font-size : 20px;
+	margin-bottom : 20px;
+}
+.reBody ul {
+	list-style : disc;
+	color : #666;
+	margin-left : 20px;
+}
+.reBody li{
+	line-height : 34px;
+}
+.reNotice{
+	width : 1200px;
+	height : 100px;
+	background-color : #eee;
+	margin : 100px 0;
+}
+.reNotice p{
+	text-align : center;
+	line-height : 100px;
+	font-size : 24px;
+}
+/*탑버튼*/
+.topBtn {
+	position : fixed;
+	right : 80px;
+	bottom : 70px;
+	cursor : pointer;
+}
+/*푸터 영역*/
+footer{
+	clear : both;
+}

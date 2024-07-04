@@ -1,0 +1,92 @@
+.aside {
+    width: 300px;
+    float: left;
+    padding-bottom: 20px;
+}
+
+table.board-table {
+    width: 100%;
+    border-spacing: 0;
+	margin-top : 50px;
+}
+.container {
+	width : 1200px;
+	height : 900px;
+	margin : 150px auto 0;
+	text-align : center;
+}
+		
+.title {
+	width : 300px;
+	height : 100px;
+	margin : 0 auto;
+}
+.title h2 {
+	font-size : 40px;
+	font-family : 'Pretendard-Bold';
+}
+.title p {
+	float : left;
+	margin-top : 20px;
+	padding-left : 40px;
+}
+.board-table th {
+    border-bottom: 2px solid #666;
+    padding: 17px;
+	font-size : 15px;
+}
+
+.board-table td {
+    border-bottom: 1px solid #eee;
+    padding: 17px;
+	font-size : 15px;
+	text-align: center;
+}
+.board-table td:nth-child(1) {
+    font-family : 'Pretendard-Bold';
+}
+.board-table td:nth-child(2) {
+    text-align: left;
+}
+.page {
+    text-align: center;
+    padding: 43px;
+}
+.page span {
+	display : inline-block;
+	width : 30px;
+	height : 30px;
+	line-height : 30px;
+	background-color : #FF9E57;
+	border-radius : 5px;
+	margin-right : 5px;
+}
+.page span a {
+	color: white;
+	font-family : 'Pretendard-Bold';
+	font-size : 14px;
+}
+.page span:nth-child(2) {
+	background-color : #fff;
+	border : 1px solid #FF9E57;
+}
+.page span:nth-child(2) a{
+	color : #FF9E57;
+}
+.button {
+    float: right;
+    text-align: center;
+	margin-top : -85px;
+	cursor : pointer;
+}
+.button-orange {
+    border: 0px;
+    border-radius: 5px;
+    background-color: #FF9E57;
+    color: white;
+    font-size: 14px;
+    font-family : 'Pretendard-Bold';
+    width: 100px;
+    height: 40px;
+	cursor : pointer;
+}
